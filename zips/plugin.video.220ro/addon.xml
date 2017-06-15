@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.220ro"
+       name="220.ro"
+       version="1.0.9"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Videoclipuri de pe 220.ro</summary>
+    <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>

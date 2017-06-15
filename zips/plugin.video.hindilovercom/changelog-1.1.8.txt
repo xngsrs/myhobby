@@ -1,0 +1,45 @@
+1.1.7
+Small fixes
+
+1.1.4-1.1.6
+rezolvat paginatii seriale
+
+1.1.3
+revert to pairing
+
+1.1.2
+fix some ol links
+
+1.1.1
+simplify
+
+1.1.0
+added copyright
+
+1.0.9
+Fix ol links
+
+1.0.8
+Fix for new site
+
+1.0.6
+Ping-pong with urlresolver, switched to mrknow
+
+1.0.5
+Fix links, switched to urlresolver
+
+1.0.4
+Remove common cache from require
+
+1.0.3
+Fix urlresolver
+
+1.0.2
+Fix icon size
+
+1.0.1
+push version
+
+[B]Version 1.0.0[/B]
+
+prima versiune

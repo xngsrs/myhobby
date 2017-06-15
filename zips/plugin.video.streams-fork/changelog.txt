@@ -1,0 +1,140 @@
+v 0.5.5
+  1. Fix acestream engine settings for first time users
+
+v 0.5.4
+  1. Merge Moromete's changes 
+  2. Change name to streams-fork
+
+v 0.5.3
+  1. merge changes from Moromete:
+    a. add new EPG provider
+    b. classify unverified channels
+    c. improve epg download to use cache if multiple requests are done in the same day
+    d. Channels names leave color unchanged (made by skin default to avoid conflicts with skin color)
+    e. remove video codec from channel name
+
+v 0.4.9
+  1. improved detection for aarch64
+
+v 0.4.8
+  1. small fix
+
+v 0.4.7
+  1. added arm32 acestream support (like rpi)
+
+v 0.4.6
+  1. changed arch detection
+
+v 0.4.5
+  1. added acestream support for linux arm64 (like s905) (tested on Dotsmart DSPure)
+
+v 0.4.4
+  1. added Sop to Http support for android devices (tested on Dotsmart DSBlack)
+
+v 0.4.3
+  1. changed channel names to yellow
+
+v 0.4.2
+  1. added support for sopcast in aarch64 linux systems
+
+v 0.3.8
+  1. change arm linux detection
+
+v 0.3.7
+  1. fix program guide response if is not a valid json
+
+v 0.3.6
+  1. fix loading acestream url with trailling '/'
+  2. added suport for playing acestream and sopcast channels by "Plexus" addon
+     "https://www.tvaddons.ag/kodi-addons/show/program.plexus/"
+
+v 0.3.5
+  1. fix program guide information
+  2. add unverified category
+  
+v 0.3.4
+  1. fixed missing channels from list with countries or languages not in addon settings
+  
+v 0.3.3
+  1. fixed crashing when channel logo link is not available
+
+v 0.3.2
+  1. improve detection if sopcast process is running and close zombie processes
+  2. fix continous "working" message for http offline streams
+
+v 0.3.1 (16.03.2015)
+  1. fix the marking offline of a sopcast channel
+
+v 0.3.0 (13.03.2015)
+  1. new online/offline detection system
+  2. fix some utf8 encoding problems (logo name)
+
+v 0.2.5 (05.01.2015)
+  1. fix play from fastupload (990.ro)
+
+v 0.2.4 (04.01.2015)
+  1. call sopcast binary from plugin for linux x86
+  2. change pytz dependecy from python module to "script.module.pytz" addon
+
+v 0.2.3 (16.12.2014)
+  1. fix some utf8 encoding problems
+  2. fix vk play for filmeonlinenoi
+
+v 0.2.0 (10.2014)
+  1. Added interface to acestream engine. Engine must be started before on the host defined in Engine settings section
+
+v 0.1.7 (26.08.2014)
+  1. fixed url detection for fastupload.ro used to play streams from 990.ro
+
+v 0.1.6 (08.05.2014)
+  1. upgraded minimum version of xbmc.python from version="2.0" to version="2.1.0" to make it compatible with xbmc 13.0 Gotham
+
+v 0.1.5 (22.04.2014)
+  1. fixed play from filmeonline.org (vk.com)
+
+v 0.1.3 (20.02.2014)
+  1. Treat pytz error if that module is not available.
+     Do not load "pytz" module if schedule function is disabled ("Disable program guide" = Checked)
+  2. added binaries for sopcast in plugin files so it does not depend if is installed on host system or not
+  3. add video codec info to channel list
+
+v 0.1.2 (05.02.2014)
+  1. Fixed default path for channel list to "http://streams.magazinmixt.ro/ro/streams.json"
+  2. If download of schedule fail the script will not crash
+
+v 0.1.1 (13.01.2014)
+  1. Improved load speed of channel list (moved from xml to json and sqlite)
+  2. Added country filter possibility for channel list
+  2. Added language filter possibility for channel list
+
+v 0.1.0 (31.12.2013)
+  1. added support for running on raspberry pi via quemu
+  2. terminate sp-sc-auth process on player stop was improved
+  3. fixed schedule parsing problem on year change
+
+v 0.0.6 (23.10.2013)
+  1. added 990 cats for movies and tv shows
+
+v 0.0.5 (19.10.2013)
+  1. added filmeonlinenoi.org cat and posibility to access generated url by vk.com
+
+v 0.0.4 (04.09.2013)
+  1. Fixed showing last event when shedule data was epired. Added "Program guide is not available"
+  2. Watching sop process and restarting the player if it dies.
+  3. Added option to load all program guides automaticaly on channel list display.
+
+v 0.0.3 (20.05.2013)
+  1. Refresh schedule on channell list after player is stopped
+  2. Fixed freeze when played stream is offline (non sopcast stream issue).
+  3. Added possibility to hide offline channels from the list
+
+v 0.0.2 (08.05.2013)
+  1. Added possibility to display schedule if available from (port.ro romanian language only)
+  2. Context menu to update Schedule
+  3. Context menu to update channel list
+
+v 0.0.1 (03.05.2013)
+  1. Based on "xsopcast" plugin and "live streams" plugin added the combined posibility to play
+  both sop and direct stream types (http, rtmp, rtsp, mmsh, ...)
+  2. Channels are read from the same remote xml list http://streams.magazinmixt.ro/streams.xml
+  Schedule function were removed and will be added later.

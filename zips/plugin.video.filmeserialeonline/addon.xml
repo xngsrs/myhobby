@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmeserialeonline"
+       name="Filme-Seriale.online"
+       version="1.0.7"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+    <import addon="script.mrknow.urlresolver" version="2016.04.06.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
+    <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
+    <platform>all</platform>
+    <news>fix new url</news>
+  </extension>
+</addon>

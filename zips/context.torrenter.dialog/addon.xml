@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.torrenter.dialog" name="Torrenter Search - Open dialog" version="1.0.3" provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="kodi.context.item" library="addon.py">
+    <item>
+      <label>32000</label>
+      <visible>stringcompare(YES,YES)</visible>
+    </item>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Open Torrenter Search dialog from context menu in library and PVR</summary>
+	<summary lang="ru">Добавляет пункт "Torrenter Search" в контекстное меню</summary>
+    <description lang="en">Open Torrenter Search dialog from context menu in library and PVR </description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <source></source>
+  </extension>
+</addon>

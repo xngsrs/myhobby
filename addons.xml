@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.tvrplus"
+       name="TvrPlus"
+       version="1.0.4"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni TvrPlus</summary>
+    <description>Urmareste emisiunile aflate pe TvrPlus.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.streams-fork"
+       name="Streams-fork"
+       version="0.5.5"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pytz"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>
+      Radio/Tv Streams
+    </summary>
+    <description>
+      Radio/Tv Streams
+      - Watch internet video/audio streams (sopcast, acestream, http, rtmp, rtsp, mms ...) based on a remote channel list.
+      http://streams.magazinmixt.ro
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvmaniabgcom"
+       name="TVManiaBG.com"
+       version="1.0.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Live video from TvManiaBG.com</summary>
+    <description>Watch live streaming video from TvManiaBG.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="context.torrenter.dialog" name="Torrenter Search - Open dialog" version="1.0.3" provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="kodi.context.item" library="addon.py">
+    <item>
+      <label>32000</label>
+      <visible>stringcompare(YES,YES)</visible>
+    </item>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Open Torrenter Search dialog from context menu in library and PVR</summary>
+	<summary lang="ru">Добавляет пункт "Torrenter Search" в контекстное меню</summary>
+    <description lang="en">Open Torrenter Search dialog from context menu in library and PVR </description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id='torrenter.searcher.FileListRO' version='1.0.6'
+     name='Torrenter Searcher: FileListRO' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for FileList.RO.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
+<addon id="plugin.video.protvro"
+       name="Protv.ro"
+       version="1.1.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni Protv.ro</summary>
+    <description>Urmareste emisiunile si serialele difuzate pe ProTV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.klatvro"
+       name="Kla.tv"
+       version="1.0.3"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Video de pe kla.tv</summary>
+    <description>Vizualizeaza videoclipuri de pe kla.tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmehdnet"
+       name="FilmeHD.net"
+       version="1.0.7"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme de pe FilmeHD.net</summary>
+    <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
+    <platform>all</platform>
+    <news>Reparat link-uri video</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.digi24"
+       name="Digi24"
+       version="1.2.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni digi24</summary>
+    <description>Urmareste emisiunile aflate pe Digi24.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id='torrenter.searcher.RarBG' version='1.0.3'
+     name='Torrenter Searcher: RarBG' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for RarBG.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for RarBG.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
+<addon id="service.subtitles.regielive"
+       name="Regielive"
+       version="1.1.9"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Regielive</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.2.8f" provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="script.module.metahandler" version="2.7.0"/>
+	<import addon="plugin.video.youtube" version="1.0.0"/>
+        <import addon="plugin.video.torrenter" version="2.6.1"/>
+	<import addon="script.module.addonsresolver" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Movie Releases</summary>
+    <description lang="en">Various movie sources to check what's trending, Upcoming, Releases. (Sources from trakt, rotten tomatoes, IMDB, TMDB)</description>
+    <platform>all</platform>
+    <news>small changes</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.220ro"
+       name="220.ro"
+       version="1.0.9"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Videoclipuri de pe 220.ro</summary>
+    <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id='torrenter.searcher.DataScene' version='1.0.3'
+     name='Torrenter Searcher: DataScene' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for DataScene.net.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for DataScene.net.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
+<addon id="service.subtitles.addic7ed"
+       name="Addic7ed.com"
+       version="1.1.1g"
+       provider-name="Sarsailă">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Get subtitles from Addic7ed.com</summary>
+        <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website/>
+        <email/>
+        <source>https://github.com/xngsrs/myhobby</source>
+    </extension>
+</addon>
+
+<addon id="service.subtitles.subsro"
+       name="Subs.ro"
+       version="1.1.5"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subs.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.titrariro"
+       name="Titrari.ro"
+       version="1.1.2"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Titrari.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+    <news>Small fixes</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.triluliluro"
+       name="trilulilu.ro"
+       version="2.0.4"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme online de la trilulilu.ro</summary>
+    <description>Urmareste videoclipuri de pe trilulilu.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmeonline2013biz"
+       name="Filmeonline2013.biz"
+       version="1.0.7"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme de pe filmeonline2013.biz</summary>
+    <description>Urmareste filme subtitrate in romana de pe filmeonline2013.biz</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.subtitrarinoiro"
+       name="Subtitrari-noi.ro"
+       version="1.1.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Subtitrari-noi.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.hindilovercom"
+       name="Hindilover.com"
+       version="1.1.8"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Seriale si filme hindilover.com</summary>
+    <description>Urmareste seriale si filme de pe hindilover.com</description>
+    <platform>all</platform>
+    <news>small fixes</news>
+  </extension>
+</addon>
+
+<addon id="repository.sarsaila.repo" name="Sarsailă's Addons" version="1.0.1" provider-name="Sarsailă">
+	<extension point="xbmc.addon.repository" name="Sarsailă's Addons">
+                <dir>
+			<info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
+			<checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
+		</dir>
+                <dir>
+                        <info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
+                        <checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
+                        <datadir zip="true">http://kodi.filmkodi.com/</datadir>
+                </dir>
+                <dir>
+                    <info compressed="false">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
+                    <checksum>http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
+                    <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
+                </dir>
+		<info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/xngsrs/myhobby/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/xngsrs/myhobby/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
+		<description>Download and install addons for Kodi.</description>
+                <disclaimer>Sarsailă</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.desene3dcom"
+       name="Desene3d.com"
+       version="1.0.6"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>continut video Deseneanimate3D.com</summary>
+    <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
+    <platform>all</platform>
+    <news>mici reparatii</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmeonlinebiz"
+       name="FilmeOnline.biz"
+       version="1.0.3"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+    <import addon="script.mrknow.urlresolver" version="2016.04.06.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme subtitrate de pe FilmeOnline.biz</summary>
+    <description>Vizioneaza filmele subtitrate disponibile pe FilmeOnline.biz</description>
+    <platform>all</platform>
+    <news>small fixes</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.filmeserialeonline"
+       name="Filme-Seriale.online"
+       version="1.0.7"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+    <import addon="script.mrknow.urlresolver" version="2016.04.06.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
+    <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
+    <platform>all</platform>
+    <news>fix new url</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.emisiunionline"
+       name="Emisiuni-Online.ro"
+       version="1.0.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Emisiuni Tv de pe emisiuni-online.ro</summary>
+    <description>Urmareste emisiuni si seriale de pe emisiuni-online.ro</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
