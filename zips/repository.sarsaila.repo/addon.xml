@@ -17,8 +17,8 @@
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
                 </dir>
 		<info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xngsrs/myhobby/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/xngsrs/myhobby/master/zips</datadir>
+		<checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
