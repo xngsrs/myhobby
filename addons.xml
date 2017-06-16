@@ -20,7 +20,7 @@
 
 <addon id="plugin.video.streams-fork"
        name="Streams-fork"
-       version="0.5.5"
+       version="0.5.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -40,6 +40,7 @@
       http://streams.magazinmixt.ro
     </description>
     <platform>all</platform>
+	<news>Fix EPG from moromete, replace ace links</news>
   </extension>
 </addon>
 

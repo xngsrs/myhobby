@@ -1,3 +1,7 @@
+v 0.5.6
+  1. fix epg from moromete
+  2. fix acestream links
+  
 v 0.5.5
   1. Fix acestream engine settings for first time users
 
