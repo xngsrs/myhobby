@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='torrenter.searcher.MagnetDL' version='1.0.3'
+     name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>

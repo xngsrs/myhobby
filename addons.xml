@@ -245,7 +245,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.2.8f" provider-name="Sarsailă">
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.2.8h" provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -263,7 +263,7 @@
     <summary lang="en">Movie Releases</summary>
     <description lang="en">Various movie sources to check what's trending, Upcoming, Releases. (Sources from trakt, rotten tomatoes, IMDB, TMDB)</description>
     <platform>all</platform>
-    <news>small changes</news>
+    <news>better name extractor to search in torrenter</news>
   </extension>
 </addon>
 
@@ -345,6 +345,54 @@
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
   </extension>
+</addon>
+
+<addon id='torrenter.searcher.ThePirateBay' version='1.0.5'
+     name='Torrenter Searcher: ThePirateBay' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера ThePirateBay.Se для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера ThePirateBay.Se для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
+<addon id='torrenter.searcher.MagnetDL' version='1.0.3'
+     name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="service.subtitles.titrariro"
