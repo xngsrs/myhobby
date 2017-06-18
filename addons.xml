@@ -197,7 +197,7 @@
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.1.9"
+       version="1.2.0"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -213,6 +213,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
+    <news>Added settings for different methods</news>
   </extension>
 </addon>
 
