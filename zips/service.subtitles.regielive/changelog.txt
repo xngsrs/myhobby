@@ -1,3 +1,7 @@
+1.1.9-1.2.1
+-Added settings for chosing webscrapepr vs api and stop popup
+-Fixed manual search and subs rating for web scrapper
+
 1.1.8
 Adaugat setare dezactivare pop-up
 
