@@ -1,3 +1,6 @@
+1.0.8
+Better servers extract
+
 1.0.5
 Reparat linkuri video
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.filmehdnet"
        name="FilmeHD.net"
-       version="1.0.7"
+       version="1.0.8"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -15,6 +15,6 @@
     <summary>Filme de pe FilmeHD.net</summary>
     <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
     <platform>all</platform>
-    <news>Reparat link-uri video</news>
+    <news>Better servers extract</news>
   </extension>
 </addon>
