@@ -1,0 +1,13 @@
+v 0.0.5
+  1. fix json - clean special escaped chars ( e.g. \' ===> ' )
+  2. mark with ID3 downloaded files
+v 0.0.4
+  1. fix Romanian translations
+v 0.0.3
+  1. add program listing
+  2. show download folder
+  3. add Romanian translations
+v 0.0.2
+  1. add download possibility
+v 0.0.1
+  1. play current item

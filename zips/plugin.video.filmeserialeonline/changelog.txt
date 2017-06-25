@@ -1,3 +1,6 @@
+1.0.9
+Added favorites
+
 1.0.6
 Fix new url
 

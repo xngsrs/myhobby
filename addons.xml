@@ -102,7 +102,7 @@
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.33.02.01" provider-name="TVA, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.33.02.02" provider-name="TVA, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -447,6 +447,30 @@
   </extension>
 </addon>
 
+<addon id="plugin.audio.eteatru"
+       name="Eteatru"
+       version="0.0.6"
+       provider-name="Moromete, Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.mutagen"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>
+      Eteatru
+    </summary>
+    <description>
+      Eteatru
+      http://www.eteatru.ro
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.filmeonline2013biz"
        name="Filmeonline2013.biz"
        version="1.0.7"
@@ -509,7 +533,7 @@
 
 <addon id="plugin.video.desene3dcom"
        name="Desene3d.com"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -523,7 +547,7 @@
     <summary>continut video Deseneanimate3D.com</summary>
     <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
     <platform>all</platform>
-    <news>mici reparatii</news>
+    <news>fix links</news>
   </extension>
 </addon>
 
@@ -550,7 +574,7 @@
 
 <addon id="plugin.video.filmeserialeonline"
        name="Filme-Seriale.online"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -565,7 +589,7 @@
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
-    <news>fix new url</news>
+    <news>Added favorites</news>
   </extension>
 </addon>
 
