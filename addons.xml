@@ -553,7 +553,7 @@
 
 <addon id="plugin.video.filmeonlinebiz"
        name="FilmeOnline.biz"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -568,7 +568,7 @@
     <summary>Filme subtitrate de pe FilmeOnline.biz</summary>
     <description>Vizioneaza filmele subtitrate disponibile pe FilmeOnline.biz</description>
     <platform>all</platform>
-    <news>small fixes</news>
+    <news>Fixed genuri</news>
   </extension>
 </addon>
 
