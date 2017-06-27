@@ -471,6 +471,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.filelist.ro" name="Filelist.ro" version="0.0.17" provider-name="Sarsailă">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="plugin.video.torrenter" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Filelist.ro private tracker.</summary>
+		<description lang="en">Filelist.ro private tracker.</description>
+
+		<summary lang="ro">Filelist.ro private tracker.</summary>
+		<description lang="ro">Filelist.ro private tracker.</description>
+
+		<forum></forum>
+		<website></website>
+		<language>ro en</language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.filmeonline2013biz"
        name="Filmeonline2013.biz"
        version="1.0.7"
