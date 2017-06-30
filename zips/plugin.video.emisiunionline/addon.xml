@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.emisiunionline"
        name="Emisiuni-Online.ro"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14,6 +14,7 @@
   <extension point="xbmc.addon.metadata">
     <summary>Emisiuni Tv de pe emisiuni-online.ro</summary>
     <description>Urmareste emisiuni si seriale de pe emisiuni-online.ro</description>
+    <news>Fix links, added favorites and search history</news>
     <platform>all</platform>
   </extension>
 </addon>
