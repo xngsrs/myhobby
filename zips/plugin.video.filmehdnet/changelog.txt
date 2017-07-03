@@ -1,3 +1,6 @@
+1.0.9
+Added Favorites, search history, metadata
+
 1.0.8
 Better servers extract
 

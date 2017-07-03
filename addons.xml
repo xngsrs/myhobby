@@ -176,7 +176,7 @@
 
 <addon id="plugin.video.filmehdnet"
        name="FilmeHD.net"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -190,7 +190,7 @@
     <summary>Filme de pe FilmeHD.net</summary>
     <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
     <platform>all</platform>
-    <news>Better servers extract</news>
+    <news>Added favorites, metadata, search history</news>
   </extension>
 </addon>
 
@@ -594,7 +594,7 @@
 
 <addon id="plugin.video.filmeserialeonline"
        name="Filme-Seriale.online"
-       version="1.1.0"
+       version="1.1.1"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -609,8 +609,41 @@
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
-    <news>Added favorites</news>
+    <news>Added search history</news>
   </extension>
+</addon>
+
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.2d" provider-name="DiMartino">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.libtorrent"/>
+        <import addon="script.module.torrent.ts"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.torrent2http"/>
+        <import addon="script.module.pyrrent2http"/>
+        <import addon="script.module.chardet" />
+        <import addon="script.module.pyxbmct"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
+        </summary>
+        <description lang='en'>It also can add, control torrents and play downloaded files with external torrent-client (uTorrent, Transmisson, Vuse, Deluge, qBittorrent) or python-libtorrent.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Плагин позволяет просматривать видео из пиринговых торрент-сетей, не дожидаясь полного скачивания.
+        </summary>
+        <description lang='ru'>Так же плагин может добавлять, проигрывать и управлять скачками в торрент клиентах (uTorrent, Transmisson, Deluge и Vuse, qBittorrent) или средставми python-libtorrent.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+		<forum>https://forums.tvaddons.ag/addon-releases/29224-torrenter-v2.html</forum>
+		<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
+		<email>skype:kyonkodura</email>
+		<source>https://github.com/DiMartinoXBMC/plugin.video.torrenter</source>
+    </extension>
 </addon>
 
 <addon id="plugin.video.emisiunionline"
