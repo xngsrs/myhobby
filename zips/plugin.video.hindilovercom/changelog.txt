@@ -1,3 +1,6 @@
+1.1.9
+Clean titles
+
 1.1.7
 Small fixes
 
