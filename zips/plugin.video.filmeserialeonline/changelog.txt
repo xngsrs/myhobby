@@ -1,3 +1,7 @@
+1.1.2
+Fix favorites show links
+Fix xml chars in title
+
 1.1.1
 Added search history
 

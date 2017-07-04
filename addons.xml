@@ -594,7 +594,7 @@
 
 <addon id="plugin.video.filmeserialeonline"
        name="Filme-Seriale.online"
-       version="1.1.1"
+       version="1.1.2"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -609,7 +609,7 @@
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
-    <news>Added search history</news>
+    <news>Fix favorites show links</news>
   </extension>
 </addon>
 
