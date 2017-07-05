@@ -122,7 +122,7 @@
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.33.02.02" provider-name="TVA, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.33.02.03" provider-name="TVA, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
