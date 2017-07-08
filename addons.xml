@@ -122,7 +122,7 @@
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.33.02.03" provider-name="TVA, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.35.01" provider-name="TVA, Eldorado, Js">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -529,6 +529,23 @@
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
   </extension>
+</addon>
+
+<addon id="plugin.program.indigostripped" version="2.0.4" name="Indigo Stripped" provider-name="TVA">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable </provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Indigo Maintenance</summary>
+        <description lang="en">Indigo Stripped down, for Maintenance and Info only.</description>
+        <disclaimer lang="en">This is a striped down version of Indigo, for maintenance only. Thank you TVAddons team for all your work</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.hindilovercom"
