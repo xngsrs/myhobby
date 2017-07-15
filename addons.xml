@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.serialeonlinero"
+       name="SerialeOnline.ro"
+       version="1.0.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Seriale subtitrate de pe Filme-Seriale.online</summary>
+    <description>Vizioneaza serialele subtitrate disponibile pe serialeonline.ro</description>
+    <platform>all</platform>
+    <news>Initial version</news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvrplus"
        name="TvrPlus"
-       version="1.0.5"
+       version="1.0.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -46,7 +66,7 @@
 
 <addon id="plugin.video.tvmaniabgcom"
        name="TVManiaBG.com"
-       version="1.0.1"
+       version="1.0.5"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -85,7 +105,7 @@
 
 <addon id="plugin.video.rofilmedocumentare"
        name="FilmeDocumentare.com"
-       version="1.0.1"
+       version="1.0.5"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -140,7 +160,7 @@
 
 <addon id="plugin.video.protvro"
        name="Protv.ro"
-       version="1.1.1"
+       version="1.1.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -158,7 +178,7 @@
 
 <addon id="plugin.video.klatvro"
        name="Kla.tv"
-       version="1.0.4"
+       version="1.0.8"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -176,7 +196,7 @@
 
 <addon id="plugin.video.filmehdnet"
        name="FilmeHD.net"
-       version="1.1.1"
+       version="1.1.5"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -196,7 +216,7 @@
 
 <addon id="plugin.video.digi24"
        name="Digi24"
-       version="1.2.1"
+       version="1.2.5"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -233,7 +253,7 @@
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.2.2"
+       version="1.2.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -254,7 +274,7 @@
 </addon>
 
 <addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.3" provider-name="Sarsailă">
-	<extension point="xbmc.addon.repository" name="Sarsailă's Addons">
+    <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
                 <dir>
                         <info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
                         <checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
@@ -265,19 +285,24 @@
                     <checksum>http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
                 </dir>
-		<info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
-		<description>Download and install addons for Kodi.</description>
-                <disclaimer>Sarsailă</disclaimer>
-		<platform>all</platform>
-	</extension>
+        <!--
+        <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+                -->
+        <info compressed="false">http://192.168.10.116:8100/repo/addons.xml</info>
+        <checksum>http://192.168.10.116:8100/repo/addons.xml.md5</checksum>
+        <datadir zip="true">http://192.168.10.116:8100/repo/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
+        <description>Download and install addons for Kodi.</description>
+        <disclaimer>Sarsailă</disclaimer>
+        <platform>all</platform>
+    </extension>
 </addon>
 
-<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.2.9" provider-name="Sarsailă">
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.3" provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -301,7 +326,7 @@
 
 <addon id="plugin.video.220ro"
        name="220.ro"
-       version="1.1.0"
+       version="1.1.4"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -338,7 +363,7 @@
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="1.1.2"
+       version="1.1.6"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -360,7 +385,7 @@
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.1.6"
+       version="1.2.3"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -429,7 +454,7 @@
 
 <addon id="service.subtitles.titrariro"
        name="Titrari.ro"
-       version="1.1.3"
+       version="1.1.8"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -451,7 +476,7 @@
 
 <addon id="plugin.video.triluliluro"
        name="trilulilu.ro"
-       version="2.0.5"
+       version="2.0.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -469,7 +494,7 @@
 
 <addon id="plugin.audio.eteatru"
        name="Eteatru"
-       version="0.0.7"
+       version="0.1.1"
        provider-name="Moromete, Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -493,7 +518,7 @@
 
 <addon id="plugin.video.filmeonline2013biz"
        name="Filmeonline2013.biz"
-       version="1.0.8"
+       version="1.1.2"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -512,7 +537,7 @@
 
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.1.1"
+       version="1.1.8"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -531,7 +556,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.indigostripped" version="2.0.4" name="Indigo Stripped" provider-name="TVA">
+<addon id="plugin.program.indigostripped" version="2.0.9" name="Indigo Stripped" provider-name="TVA">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -550,7 +575,7 @@
 
 <addon id="plugin.video.hindilovercom"
        name="Hindilover.com"
-       version="1.2.0"
+       version="1.2.4"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -570,7 +595,7 @@
 
 <addon id="plugin.video.desene3dcom"
        name="Desene3d.com"
-       version="1.0.8"
+       version="1.1.2"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -590,7 +615,7 @@
 
 <addon id="plugin.video.filmeonlinebiz"
        name="FilmeOnline.biz"
-       version="1.0.5"
+       version="1.0.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -611,7 +636,7 @@
 
 <addon id="plugin.video.filmeserialeonline"
        name="Filme-Seriale.online"
-       version="1.1.3"
+       version="1.1.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -630,7 +655,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.2e" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.7" provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -665,7 +690,7 @@
 
 <addon id="plugin.video.emisiunionline"
        name="Emisiuni-Online.ro"
-       version="1.0.2"
+       version="1.0.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

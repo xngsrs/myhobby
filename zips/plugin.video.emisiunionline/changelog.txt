@@ -1,0 +1,5 @@
+1.0.1
+Fix links, added favorites and search history
+
+1.0.0
+prima versiune

@@ -1,0 +1,32 @@
+[B]Version 1.0.9[/B]
+Remove common cache from require
+
+[B]Version 1.0.8[/B]
+12-10-2016
+Play rapid
+
+[B]Version 1.0.7[/B]
+17-09-2016
+Putina curatenie in cod, putine imbunatatiri, adaugat o categorie video
+
+
+[B]Version 1.0.4[/B]
+02-07-2016
+Fix link-uri ( redirectionate )
+Adaugat progres inainte de pornire video
+
+[B]Version 1.0.4[/B]
+26-06-2016
+adaugat plot
+
+[B]Version 1.0[/B]
+
+first version
+
+[B]Version 1.0.1[/B]
+
+icon
+
+[B]Version 1.0.3[/B]
+26-06-2016
+adaugat categorii

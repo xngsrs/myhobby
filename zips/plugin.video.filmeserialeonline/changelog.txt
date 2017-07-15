@@ -1,0 +1,33 @@
+1.1.2
+Fix favorites show links
+Fix xml chars in title
+
+1.1.1
+Added search history
+
+1.1.0
+Small fix
+
+1.0.9
+Added favorites
+
+1.0.6
+Fix new url
+
+1.0.5
+Small fixes
+
+1.0.4
+adaugat rating imdb unde este disponibil
+
+1.0.3
+reparat eroare seriale incomplete
+
+1.0.2
+mici reparatii plus adaugare marcare ca vizionat(doar manual)
+
+1.0.1
+prima versiune
+
+
+
