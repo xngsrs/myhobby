@@ -285,14 +285,14 @@
                     <checksum>http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
                 </dir>
-        <!--
         <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
-                -->
-        <info compressed="false">http://192.168.10.116:8100/repo/addons.xml</info>
-        <checksum>http://192.168.10.116:8100/repo/addons.xml.md5</checksum>
-        <datadir zip="true">http://192.168.10.116:8100/repo/zips/</datadir>
+        <!--
+        <info compressed="false">http://10.168.10.116:8100/repo/addons.xml</info>
+        <checksum>http://10.168.10.116:8100/repo/addons.xml.md5</checksum>
+        <datadir zip="true">http://10.168.10.116:8100/repo/zips/</datadir>
+         -->
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
@@ -302,14 +302,14 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.3" provider-name="Sarsailă">
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.4" provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.metahandler" version="2.7.0"/>
-	<import addon="plugin.video.youtube" version="1.0.0"/>
-        <import addon="plugin.video.torrenter" version="2.6.1"/>
-	<import addon="script.module.addonsresolver" optional="true"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.metahandler" version="2.7.0"/>
+    <import addon="plugin.video.youtube" version="1.0.0"/>
+    <import addon="plugin.video.torrenter" version="2.6.1"/>
+    <import addon="script.module.addonsresolver" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="main.py">
     <provides>video</provides>
@@ -320,7 +320,7 @@
     <summary lang="en">Movie Releases</summary>
     <description lang="en">Various movie sources to check what's trending, Upcoming, Releases. (Sources from trakt, rotten tomatoes, IMDB, TMDB)</description>
     <platform>all</platform>
-    <news>fix ssl trailer error</news>
+    <news>cnmg improvements</news>
   </extension>
 </addon>
 

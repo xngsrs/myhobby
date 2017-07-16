@@ -1,3 +1,6 @@
+Version 0.3.4
+-Cnmg improvements
+
 Version 0.2.8i
 - fix cnmg trailer ssl error
 
