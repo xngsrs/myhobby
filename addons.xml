@@ -105,7 +105,7 @@
 
 <addon id="plugin.video.rofilmedocumentare"
        name="FilmeDocumentare.com"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -119,7 +119,7 @@
     <summary>FilmeDocumentare.com</summary>
     <description>Urmărește documentare traduse in limba Română culese de pe FilmeDocumentare.com</description>
     <platform>all</platform>
-    <news>First Version</news>
+    <news>Fix hanging on link retrieve</news>
   </extension>
 </addon>
 
