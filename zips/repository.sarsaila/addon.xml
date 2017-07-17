@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.3" provider-name="Sarsailă">
-	<extension point="xbmc.addon.repository" name="Sarsailă's Addons">
-                <dir>
-                        <info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
-                        <checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
-                        <datadir zip="true">http://kodi.filmkodi.com/</datadir>
-                </dir>
+<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.4" provider-name="Sarsailă">
+    <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
                 <dir>
                     <info compressed="false">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
                     <checksum>http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
                 </dir>
-		<info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
-		<description>Download and install addons for Kodi.</description>
-                <disclaimer>Sarsailă</disclaimer>
-		<platform>all</platform>
-	</extension>
+        <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Install Addons from https://github.com/xngsrs/myhobby</summary>
+        <description>Download and install addons for Kodi.</description>
+        <disclaimer>Sarsailă</disclaimer>
+        <platform>all</platform>
+    </extension>
 </addon>
