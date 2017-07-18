@@ -160,7 +160,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.36.01" provider-name="TVA, Eldorado, Js">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.36.02" provider-name="TVA, Eldorado, Js">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
