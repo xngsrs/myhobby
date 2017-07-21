@@ -1,3 +1,6 @@
+1.1.9
+Fix new site design
+
 1.0.9
 adaugat setare pentru dezactivare pop-up
 
