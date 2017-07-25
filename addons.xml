@@ -160,7 +160,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.36.02" provider-name="TVA, Eldorado, Js">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.38.01" provider-name="TVA, Eldorado, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -393,7 +393,7 @@
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.2.3"
+       version="1.2.4"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -462,7 +462,7 @@
 
 <addon id="service.subtitles.titrariro"
        name="Titrari.ro"
-       version="1.1.8"
+       version="1.1.9"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -545,7 +545,7 @@
 
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.1.9"
+       version="1.2.0"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
