@@ -299,7 +299,7 @@
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
                 </dir>
         <info compressed="false">http://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml</info>
-        <checksum>http://api.bitbucket.org/1.0/repositories/master/addons.xml.md5</checksum>
+        <checksum>http://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
         <datadir zip="true">http://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/zips/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
