@@ -232,6 +232,28 @@
   </extension>
 </addon>
 
+<addon id="service.subtitles.rosateamro"
+       name="RoSA-Team.ro"
+       version="1.0.0"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">RoSA-Team.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+    <news>Small fixes</news>
+  </extension>
+</addon>
+
 <addon id="plugin.video.digi24"
        name="Digi24"
        version="1.2.5"
@@ -291,7 +313,7 @@
   </extension>
 </addon>
 
-<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.6" provider-name="Sarsailă">
+<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.7" provider-name="Sarsailă">
     <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
                 <dir>
                     <info compressed="false">http://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
@@ -303,9 +325,11 @@
                     <checksum>http://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
                     <datadir zip="true">http://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/zips/</datadir>
                 </dir>
-        <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+                <dir>
+                    <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+                    <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+                    <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+                </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Install Addons from Sarsa repo</summary>
