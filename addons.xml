@@ -10,6 +10,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
+    <size>713717</size>
     <summary lang="en">Subtitrari-noi.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -33,6 +34,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>1069462</size>
     <summary>Emisiuni Protv.ro</summary>
     <description>Urmareste emisiunile si serialele difuzate pe ProTV</description>
     <platform>all</platform>
@@ -52,6 +54,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>359324</size>
     <summary>Filme subtitrate de pe FilmeOnline.biz</summary>
     <description>Vizioneaza filmele subtitrate disponibile pe FilmeOnline.biz</description>
     <platform>all</platform>
@@ -72,6 +75,7 @@
     <provides>audio</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>557651</size>
     <summary>
       Eteatru
     </summary>
@@ -92,6 +96,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
+    <size>74325</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
         </summary>
@@ -116,6 +121,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
+    <size>10531</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for RarBG.
         </summary>
@@ -138,6 +144,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>182185</size>
     <summary>Videoclipuri de pe 220.ro</summary>
     <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
     <platform>all</platform>
@@ -157,6 +164,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>449080</size>
     <summary>Seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza serialele subtitrate disponibile pe serialeonline.ro</description>
     <platform>all</platform>
@@ -177,6 +185,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>143816</size>
     <summary>continut video Deseneanimate3D.com</summary>
     <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
     <platform>all</platform>
@@ -193,6 +202,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
+    <size>62327</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
         </summary>
@@ -218,6 +228,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
+    <size>36839</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -242,6 +253,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>381649</size>
     <summary>FilmeDocumentare.com</summary>
     <description>Urmărește documentare traduse in limba Română culese de pe FilmeDocumentare.com</description>
     <platform>all</platform>
@@ -261,6 +273,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>198758</size>
     <summary>Live video from TvManiaBG.com</summary>
     <description>Watch live streaming video from TvManiaBG.com</description>
     <platform>all</platform>
@@ -277,6 +290,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
+    <size>717567</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -301,6 +315,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>220827</size>
     <summary>Video de pe kla.tv</summary>
     <description>Vizualizeaza videoclipuri de pe kla.tv</description>
     <platform>all</platform>
@@ -326,6 +341,7 @@
                 </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
+    <size>5260</size>
         <summary>Install Addons from Sarsa repo</summary>
         <description>Download and install addons for Kodi.</description>
         <disclaimer>Sarsailă</disclaimer>
@@ -346,6 +362,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>207469</size>
     <summary>Filme de pe filmeonline2013.biz</summary>
     <description>Urmareste filme subtitrate in romana de pe filmeonline2013.biz</description>
     <platform>all</platform>
@@ -364,6 +381,7 @@
         <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
+    <size>406654</size>
         <summary>Home Of 3rd Party Addons</summary>
         <description></description>
         <platform>all</platform>
@@ -382,6 +400,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>195771</size>
     <summary>Filme online de la trilulilu.ro</summary>
     <description>Urmareste videoclipuri de pe trilulilu.ro</description>
     <platform>all</platform>
@@ -401,6 +420,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>498647</size>
     <language>en</language>
     <platform>all</platform>
     <summary lang="en">Movie Releases</summary>
@@ -419,6 +439,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
+    <size>47139</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for DataScene.net.
         </summary>
@@ -442,6 +463,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>667095</size>
     <summary>Filme de pe FilmeHD.net</summary>
     <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
     <platform>all</platform>
@@ -462,6 +484,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>139625</size>
     <summary>Emisiuni Tv de pe emisiuni-online.ro</summary>
     <description>Urmareste emisiuni si seriale de pe emisiuni-online.ro</description>
     <news>Fix links, added favorites and search history</news>
@@ -500,6 +523,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
+    <size>521098</size>
     <summary lang="en">RoSA-Team.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -521,6 +545,7 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
+    <size>4496245</size>
         <summary lang="en">Indigo Maintenance</summary>
         <description lang="en">Indigo Stripped down, for Maintenance and Info only.</description>
         <disclaimer lang="en">This is a striped down version of Indigo, for maintenance only. Thank you TVAddons team for all your work</disclaimer>
@@ -539,6 +564,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
+    <size>485843</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
@@ -558,6 +584,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>680929</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -577,6 +604,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>484360</size>
     <summary>Seriale si filme hindilover.com</summary>
     <description>Urmareste seriale si filme de pe hindilover.com</description>
     <platform>all</platform>
@@ -597,6 +625,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>282932</size>
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
@@ -619,6 +648,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
+    <size>1289113</size>
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
         </summary>
@@ -650,6 +680,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>8953345</size>
     <summary>
       Radio/Tv Streams
     </summary>
@@ -675,6 +706,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>636239</size>
     <summary>Emisiuni digi24</summary>
     <description>Urmareste emisiunile aflate pe Digi24.ro</description>
     <platform>all</platform>
@@ -691,6 +723,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
+    <size>622194</size>
     <summary lang="en">Titrari.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -712,6 +745,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
+    <size>53205</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
         </summary>
@@ -732,6 +766,7 @@
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
+    <size>518458</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -756,6 +791,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
+    <size>169003</size>
     <summary>Emisiuni TvrPlus</summary>
     <description>Urmareste emisiunile aflate pe TvrPlus.ro</description>
     <platform>all</platform>
