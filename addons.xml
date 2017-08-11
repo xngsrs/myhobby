@@ -112,6 +112,31 @@
   </extension>
 </addon>
 
+<addon id='torrenter.searcher.Torrentz' version='1.0.1'
+     name='Torrenter Searcher: Torrentz2' provider-name='DiMartino, Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+    <size>8929</size>
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for Torrentz2.eu.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for Torrentz2.eu.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера Torrentz.eu для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера Torrentz.eu для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
 <addon id='torrenter.searcher.MagnetDL' version='1.0.3'
      name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
   <requires>
