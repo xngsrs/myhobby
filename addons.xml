@@ -22,6 +22,31 @@
   </extension>
 </addon>
 
+<addon id='torrenter.searcher.KickAssSo' version='1.0.5'
+     name='Torrenter Searcher: KickAssSo' provider-name='DiMartino, Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+    <size>33080</size>
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for KickAss.So.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for KickAss.So.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера KickAss.So для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера KickAss.So для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
+</addon>
+
 <addon id="plugin.video.protvro"
        name="Protv.ro"
        version="1.1.6"
@@ -614,7 +639,7 @@
 
 <addon id="plugin.video.filmeserialeonline"
        name="Filme-Seriale.online"
-       version="1.1.9"
+       version="1.2.0"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -625,7 +650,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>282932</size>
+    <size>282983</size>
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
