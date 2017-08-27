@@ -1,3 +1,6 @@
+2.2.1
+bump version
+
 1.1.1f
 fix search movie
 
