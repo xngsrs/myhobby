@@ -566,7 +566,7 @@
 
 <addon id="service.subtitles.rosateamro"
        name="RoSA-Team.ro"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -574,7 +574,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>521098</size>
+    <size>521118</size>
     <summary lang="en">RoSA-Team.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -583,7 +583,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Small fixes</news>
+    <news>fix small bug in manual search</news>
   </extension>
 </addon>
 
