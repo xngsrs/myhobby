@@ -458,7 +458,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.6" provider-name="Sarsailă">
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.6a" provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -471,7 +471,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>499302</size>
+    <size>499157</size>
     <language>en</language>
     <platform>all</platform>
     <summary lang="en">Movie Releases</summary>
