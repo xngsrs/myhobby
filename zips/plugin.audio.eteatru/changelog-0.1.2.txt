@@ -1,3 +1,6 @@
+v 0.1.2
+  1. added Live
+  2. fixed special chars in name
 v 0.0.5
   1. fix json - clean special escaped chars ( e.g. \' ===> ' )
   2. mark with ID3 downloaded files
