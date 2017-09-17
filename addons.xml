@@ -566,7 +566,7 @@
 
 <addon id="service.subtitles.rosateamro"
        name="RoSA-Team.ro"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -574,7 +574,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>521118</size>
+    <size>521442</size>
     <summary lang="en">RoSA-Team.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -583,7 +583,8 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>fix small bug in manual search</news>
+    <news>-fix for titles containing xml formatting
+-stop polluting log with insecure request warning</news>
   </extension>
 </addon>
 
@@ -624,7 +625,7 @@
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.22a"
+       version="1.0.22b"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -635,7 +636,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>849471</size>
+    <size>849486</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
