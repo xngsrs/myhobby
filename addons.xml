@@ -626,7 +626,7 @@
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.24b"
+       version="1.0.25"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -637,7 +637,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>874627</size>
+    <size>887100</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -813,7 +813,7 @@
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="2.2.1"
+       version="2.2.1a"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -821,7 +821,7 @@
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>518470</size>
+    <size>518503</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>

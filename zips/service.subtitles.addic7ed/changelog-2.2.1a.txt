@@ -1,3 +1,6 @@
+2.2.1a
+fix error when episode is 0
+
 2.2.1
 bump version
 
