@@ -1,0 +1,22 @@
+[B]Version 4.0.07 (Oct 03, 2017)[/B]
+- Code Base Changes:
+    - Updated jsunpack
+- Resolvers Added:
+    - vidstreaming.io
+    - lolzor.com
+    - mycollection.net
+    - adhqmedia.com
+    - gagomatic.com
+    - funblr.com
+    - favour.me
+    - vidbaba.com
+    - likeafool.com
+- Resolvers Fixed/Updated:
+    - XvidStage
+    - Vid.me
+    - Speedvid (will now auto-update)
+    - GriftHost
+    - FlashX
+    - MyCloud
+- Languages Added
+    - Hebrew Translation
