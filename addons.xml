@@ -2,7 +2,7 @@
 <addons>
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.2.0"
+       version="1.2.0a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -10,7 +10,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>713717</size>
+    <size>713739</size>
     <summary lang="en">Subtitrari-noi.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -270,7 +270,7 @@
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.2.4"
+       version="1.2.4a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -278,7 +278,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>36839</size>
+    <size>36858</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -332,7 +332,7 @@
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.2.6"
+       version="1.2.6a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -340,7 +340,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>717567</size>
+    <size>717619</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -349,7 +349,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>fix rating and manual search on web scrapper</news>
+    <news>Added hack for long stream url</news>
   </extension>
 </addon>
 
@@ -566,7 +566,7 @@
 
 <addon id="service.subtitles.rosateamro"
        name="RoSA-Team.ro"
-       version="1.0.2"
+       version="1.0.2a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -574,7 +574,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>521442</size>
+    <size>521422</size>
     <summary lang="en">RoSA-Team.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -583,8 +583,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>-fix for titles containing xml formatting
--stop polluting log with insecure request warning</news>
+    <news>Added hack for long stream url</news>
   </extension>
 </addon>
 
@@ -606,7 +605,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.08a" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.08b" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -616,7 +615,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>499687</size>
+    <size>500967</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
@@ -626,7 +625,7 @@
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.27d"
+       version="1.0.28"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -637,7 +636,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>903528</size>
+    <size>914269</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -770,7 +769,7 @@
 
 <addon id="service.subtitles.titrariro"
        name="Titrari.ro"
-       version="1.1.9"
+       version="1.1.9a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -778,7 +777,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>622194</size>
+    <size>622226</size>
     <summary lang="en">Titrari.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -787,7 +786,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Small fixes</news>
+    <news>Added hack for long stream url</news>
   </extension>
 </addon>
 
@@ -813,7 +812,7 @@
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="2.2.1a"
+       version="2.2.1b"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -821,7 +820,7 @@
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>518503</size>
+    <size>518547</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
