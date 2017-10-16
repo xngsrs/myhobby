@@ -270,7 +270,7 @@
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.2.4a"
+       version="1.2.5"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -278,7 +278,7 @@
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>36858</size>
+    <size>37013</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -287,6 +287,7 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
+    <news>Added support for multiple languages</news>
   </extension>
 </addon>
 
