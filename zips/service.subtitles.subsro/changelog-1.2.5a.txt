@@ -1,3 +1,6 @@
+1.2.5a
+Stopped error when no result
+
 1.2.5
 Added support for multiple languages
 Fix error when result not containing selected language
