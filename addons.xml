@@ -504,7 +504,7 @@
 
 <addon id="plugin.video.filmehdnet"
        name="FilmeHD.net"
-       version="1.1.6"
+       version="1.1.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -515,11 +515,11 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>667100</size>
+    <size>667085</size>
     <summary>Filme de pe FilmeHD.net</summary>
     <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
     <platform>all</platform>
-    <news>Fixes</news>
+    <news>Reparat linkuri</news>
   </extension>
 </addon>
 
@@ -628,7 +628,7 @@
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.35b"
+       version="1.0.35c"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -639,7 +639,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>940781</size>
+    <size>941191</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
