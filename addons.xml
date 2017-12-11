@@ -22,7 +22,7 @@
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.KickAssSo' version='1.0.6'
+<addon id='torrenter.searcher.KickAssSo' version='1.0.7'
      name='Torrenter Searcher: KickAssSo' provider-name='DiMartino, Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -31,7 +31,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>33231</size>
+    <size>32953</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for KickAss.So.
         </summary>
@@ -243,7 +243,7 @@
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.ThePirateBay' version='1.0.5'
+<addon id='torrenter.searcher.ThePirateBay' version='1.0.6'
      name='Torrenter Searcher: ThePirateBay' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -252,7 +252,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>62327</size>
+    <size>62471</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
         </summary>
@@ -459,7 +459,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.6a" provider-name="Sarsailă">
+<addon id="plugin.video.moviereleases" name="Movie Releases" version="0.3.6b" provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -472,7 +472,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>499157</size>
+    <size>499151</size>
     <language>en</language>
     <platform>all</platform>
     <summary lang="en">Movie Releases</summary>
@@ -606,7 +606,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.12a" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.15a" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -616,19 +616,20 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>513883</size>
+    <size>514246</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <source>https://github.com/jsergio123/script.module.urlresolver</source>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.35d"
+       version="1.0.36"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -639,7 +640,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>941204</size>
+    <size>952322</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -690,7 +691,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.7" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.8a" provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -705,7 +706,7 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>1289113</size>
+    <size>1300348</size>
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
         </summary>
@@ -716,11 +717,14 @@
         </summary>
         <description lang='ru'>Так же плагин может добавлять, проигрывать и управлять скачками в торрент клиентах (uTorrent, Transmisson, Deluge и Vuse, qBittorrent) или средставми python-libtorrent.
         </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-		<forum>https://forums.tvaddons.ag/addon-releases/29224-torrenter-v2.html</forum>
-		<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
-		<email>skype:kyonkodura</email>
-		<source>https://github.com/DiMartinoXBMC/plugin.video.torrenter</source>
+	<disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+	<summary lang='es'>Complemento que nos permite ver vídeos que se distribuyen en redes BitTorrent sin necesidad de descargarlos previamente por completo.
+        </summary>
+        <description lang='es'>También gestiona torrents y nos deja elegir entre su propio cliente interno y otros externos (μTorrent, Transmission, Deluge, Vuze, qBittorrent), el cliente BitTorrent con el que realizar las descargas.
+        </description>
+	<forum>https://forums.tvaddons.ag/addon-releases/29224-torrenter-v2.html</forum>
+	<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
+	<source>https://github.com/inpos/plugin.video.torrenter</source>
     </extension>
 </addon>
 
