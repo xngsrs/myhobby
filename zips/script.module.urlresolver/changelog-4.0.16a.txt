@@ -1,0 +1,12 @@
+[B]Version 4.0.16 (Dec 19, 2017)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - None
+- Resolvers Fixed/Updated:
+    - TheVid (azzy9)
+    - AllDebrid (Eldorado)
+- Languages Added/Updated
+    - Norwegian (solbu)
+- Testers Needed: https://www.tvaddons.co/urlresolver-testing-kodi/
+- Developers Needed: https://www.tvaddons.co/urlresolver-kodi-addon/
