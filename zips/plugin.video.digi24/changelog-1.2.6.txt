@@ -1,3 +1,6 @@
+1.2.6
+fix live links
+
 1.2.0
 Small fixes
 

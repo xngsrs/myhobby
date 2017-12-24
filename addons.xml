@@ -331,7 +331,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.digi24"
        name="Digi24"
-       version="1.2.5"
+       version="1.2.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -341,7 +341,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>636239</size>
+    <size>635582</size>
     <summary>Emisiuni digi24</summary>
     <description>Urmareste emisiunile aflate pe Digi24.ro</description>
     <platform>all</platform>
