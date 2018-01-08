@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id='torrenter.searcher.KickAssSo' version='1.0.7'
+<addon id='torrenter.searcher.KickAssSo' version='1.0.8'
      name='Torrenter Searcher: KickAssSo' provider-name='DiMartino, Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -9,7 +9,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>32953</size>
+    <size>32964</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for KickAss.So.
         </summary>
@@ -154,7 +154,7 @@
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.FileListRO' version='1.0.6'
+<addon id='torrenter.searcher.FileListRO' version='1.0.7'
      name='Torrenter Searcher: FileListRO' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -163,7 +163,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>53205</size>
+    <size>53247</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
         </summary>
@@ -199,6 +199,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
                 <forum>https://www.tvaddons.co/forums</forum>
                 <website>https://www.tvaddons.co</website>
 	</extension>
+</addon>
+
+<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.9" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <size>416293</size>
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.16a" provider-name="Eldorado, tknorris, tvaddons">
@@ -281,7 +300,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.Torrentz' version='1.0.1'
+<addon id='torrenter.searcher.Torrentz' version='1.0.2'
      name='Torrenter Searcher: Torrentz2' provider-name='DiMartino, Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -290,7 +309,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>8929</size>
+    <size>9865</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for Torrentz2.eu.
         </summary>
@@ -551,7 +570,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id='torrenter.searcher.MagnetDL' version='1.0.3'
+<addon id='torrenter.searcher.MagnetDL' version='1.0.4'
      name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -560,7 +579,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>74325</size>
+    <size>74357</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
         </summary>
@@ -690,6 +709,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id='torrenter.searcher.ExtraTorrent' version='1.0.4'
+     name='Torrenter Searcher: ExtraTorrent' provider-name='DiMartino, Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+    <size>21110</size>
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for ExtraTorrent.CC.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for ExtraTorrent.CC.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+        <summary lang='ru'>Серчер трекера ExtraTorrent.CC для плагина Torrenter v2.
+        </summary>
+        <description lang='ru'>Серчер трекера ExtraTorrent.CC для плагина Torrenter v2.
+        </description>
+        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
