@@ -597,7 +597,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.titrariro"
        name="Titrari.ro"
-       version="1.1.9a"
+       version="1.2.0"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -605,7 +605,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>622226</size>
+    <size>622321</size>
     <summary lang="en">Titrari.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -614,13 +614,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Added hack for long stream url</news>
+    <news>Fix when download is srt</news>
   </extension>
 </addon>
 
 <addon id="plugin.video.cinepub"
        name="cinepub.ro"
-       version="0.1.5"
+       version="0.1.6"
        provider-name="strainu">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
@@ -628,7 +628,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
     <extension point="xbmc.addon.metadata">
-    <size>30583</size>
+    <size>30619</size>
 	<provides>video</provides>
         <platform>all</platform>
 	<website>https://github.com/strainu/cinepub-kodi</website>
@@ -895,7 +895,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.8a" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.9" provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -910,7 +910,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>1300348</size>
+    <size>1301510</size>
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
         </summary>
