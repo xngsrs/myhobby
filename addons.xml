@@ -524,7 +524,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.2.5a"
+       version="1.2.6"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -532,7 +532,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>37034</size>
+    <size>106994</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -541,7 +541,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Stopped error when no result found</news>
+    <news>Workaround for rar archive because kodi disabled rar support</news>
   </extension>
 </addon>
 
