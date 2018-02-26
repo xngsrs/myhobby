@@ -154,7 +154,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.06b" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.07" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -165,7 +165,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>695484</size>
+    <size>695528</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -241,7 +241,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.18b" provider-name="Eldorado, tknorris, tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.19a" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -251,7 +251,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>521832</size>
+    <size>523791</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
@@ -687,7 +687,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.40"
+       version="1.0.40a"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -699,7 +699,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1021431</size>
+    <size>1021452</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
