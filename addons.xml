@@ -687,7 +687,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.40a"
+       version="1.0.40b"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -699,7 +699,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1021452</size>
+    <size>1021563</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
