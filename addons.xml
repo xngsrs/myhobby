@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id='torrenter.searcher.KickAssSo' version='1.0.8'
+<addon id='torrenter.searcher.KickAssSo' version='1.0.9'
      name='Torrenter Searcher: KickAssSo' provider-name='DiMartino, Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -9,7 +9,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>32964</size>
+    <size>32957</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for KickAss.So.
         </summary>
@@ -175,7 +175,7 @@
 	</extension>
 </addon>
 
-<addon id='torrenter.searcher.FileListRO' version='1.0.7'
+<addon id='torrenter.searcher.FileListRO' version='1.0.8'
      name='Torrenter Searcher: FileListRO' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -184,7 +184,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>53247</size>
+    <size>53251</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
         </summary>
@@ -390,7 +390,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.RarBG' version='1.0.3'
+<addon id='torrenter.searcher.RarBG' version='1.0.4'
      name='Torrenter Searcher: RarBG' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -399,7 +399,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>10531</size>
+    <size>10611</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for RarBG.
         </summary>
