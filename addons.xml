@@ -612,6 +612,36 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point='xbmc.python.module'/>
 </addon>
 
+<addon id="service.downloadmanager.transmission"
+       name="Transmission"
+       version="8.0.2"
+       provider-name="not sure, but modified a little by Sarsailă">
+  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8" />
+    <import addon="script.module.six" version="1.5.2" />
+
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.service"
+             library="resources/lib/player.py"
+             start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <size>6512058</size>
+    <summary>transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+transmission is a fast, easy and free BitTorrent client
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id='torrenter.searcher.MagnetDL' version='1.0.4'
      name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
   <requires>
