@@ -1,3 +1,27 @@
+[B]Version 5.0.14 (Apr 24, 2018)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - nxload
+- Resolvers Fixed/Updated:
+    - thevid
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+	- None
+
+[B]Version 5.0.12 (Apr 22, 2018)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - None
+- Resolvers Fixed/Updated:
+    - thevid
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+	- None
+
 [B]Version 5.0.11 (Apr 21, 2018)[/B]
 - Code Base Changes:
     - None
