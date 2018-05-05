@@ -175,7 +175,7 @@
 	</extension>
 </addon>
 
-<addon id='torrenter.searcher.FileListRO' version='1.0.8'
+<addon id='torrenter.searcher.FileListRO' version='1.0.9'
      name='Torrenter Searcher: FileListRO' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -184,7 +184,7 @@
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>53251</size>
+    <size>53253</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
         </summary>
@@ -241,7 +241,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.14b" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.15b" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -252,7 +252,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>535702</size>
+    <size>536879</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -266,7 +266,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.protvro"
        name="Protv.ro"
-       version="1.1.6"
+       version="1.1.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -276,7 +276,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1069462</size>
+    <size>1069496</size>
     <summary>Emisiuni Protv.ro</summary>
     <description>Urmareste emisiunile si serialele difuzate pe ProTV</description>
     <platform>all</platform>
@@ -295,7 +295,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>213862</size>
+    <size>213728</size>
     <summary>Video de pe kla.tv</summary>
     <description>Vizualizeaza videoclipuri de pe kla.tv</description>
     <platform>all</platform>
@@ -521,7 +521,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.DataScene' version='1.0.3'
+<addon id='torrenter.searcher.DataScene' version='1.0.4'
      name='Torrenter Searcher: DataScene' provider-name='Sarsailă'>
   <requires>
     <import addon='xbmc.python' version='2.1.0'/>
@@ -530,7 +530,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <provides>executable</provides>
   </extension>
       <extension point="xbmc.addon.metadata">
-    <size>47139</size>
+    <size>47206</size>
         <platform>all</platform>
         <summary lang='en'>Torrenter v2 Searcher module for DataScene.net.
         </summary>
@@ -836,7 +836,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>207641</size>
+    <size>207485</size>
     <summary>Filme de pe filmeonline2013.biz</summary>
     <description>Urmareste filme subtitrate in romana de pe filmeonline2013.biz</description>
     <platform>all</platform>
@@ -960,7 +960,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>283090</size>
+    <size>282934</size>
     <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
     <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
     <platform>all</platform>
@@ -1003,6 +1003,26 @@ transmission is a fast, easy and free BitTorrent client
 	<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
 	<source>https://github.com/inpos/plugin.video.torrenter</source>
     </extension>
+</addon>
+
+<addon id='torrenter.searcher.FluxZone' version='1.0.0'
+     name='Torrenter Searcher: FluxZone' provider-name='Sarsailă'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="__init__.py">
+    <provides>executable</provides>
+  </extension>
+      <extension point="xbmc.addon.metadata">
+    <size>37988</size>
+        <platform>all</platform>
+        <summary lang='en'>Torrenter v2 Searcher module for FluxZone.org.
+        </summary>
+        <description lang='en'>Torrenter v2 Searcher module for FluxZone.org.
+        </description>
+        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
+    </extension>
+  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="plugin.video.emisiunionline"
