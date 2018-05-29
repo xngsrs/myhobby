@@ -1,3 +1,46 @@
+[B]Version 5.0.10 (May 24, 2018)[/B]
+- Code Base Changes:
+    - Update GMU file locations
+    - No longer raising ResolveError on pairing timeout/cancel
+- Resolvers Added:
+    - putvid
+    - gounlimited
+    - upfiles
+    - nxload
+- Resolvers Fixed/Updated:
+    - vidlox
+    - thevideo
+    - dailymotion
+    - premiumize
+    - flashx
+    - streamplay
+    - powvideo
+    - estream
+    - thevid
+    - vidup_me
+    - gorrilavid
+    - waaw
+- Resolvers Removed
+    - vidup_org
+- Languages Added/Updated
+    - None
+
+
+[B]Version 5.0.09 (Mar 17, 2018)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - None
+- Resolvers Fixed/Updated:
+    - realdebrid (still handling 'bogus escape' to be safe)
+    - vidlox
+    - thevideo
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+    - None
+
+
 [B]Version 5.0.08 (Mar 10, 2018)[/B]
 - Code Base Changes:
     - None

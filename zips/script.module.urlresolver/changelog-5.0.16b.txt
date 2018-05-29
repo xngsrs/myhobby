@@ -1,3 +1,29 @@
+[B]Version 5.0.16 (May 27, 2018)[/B]
+- Code Base Changes:
+    - Common user agent changed to Chrome only 
+    - Removed IE from random user agents
+- Resolvers Added:
+    - loadvid
+    - putvid
+    - gounlimited
+    - upfiles
+- Resolvers Fixed/Updated:
+    - vidlox
+    - thevideo
+    - dailymotion
+    - premiumize
+    - flashx
+    - streamplay
+    - powvideo
+    - estream
+    - thevid
+    - gorrilavid
+    - waaw
+- Resolvers Removed
+    - vidup_org
+- Languages Added/Updated
+	- None
+	
 [B]Version 5.0.15 (Apr 29, 2018)[/B]
 - Code Base Changes:
     - None
