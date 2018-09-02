@@ -154,7 +154,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.11b" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.15a" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -165,7 +165,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>699000</size>
+    <size>704689</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -241,7 +241,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.20a" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.22a" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -252,7 +252,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>773246</size>
+    <size>778759</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -412,7 +412,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.2.6a"
+       version="1.2.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -420,7 +420,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>717619</size>
+    <size>717663</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -429,7 +429,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Added hack for long stream url</news>
+    <news>Removed year from search string</news>
   </extension>
 </addon>
 
@@ -543,7 +543,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="2.2.1b"
+       version="3.0.0"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -551,7 +551,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>518547</size>
+    <size>518548</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -719,7 +719,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.44"
+       version="1.0.44b"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -731,7 +731,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1018812</size>
+    <size>1018866</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>

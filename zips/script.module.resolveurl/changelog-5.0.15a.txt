@@ -1,3 +1,67 @@
+[B]Version 5.0.15 (August 21, 2018)[/B]
+- Code Base Changes:
+    - update User-Agent strings
+    - simplified get_ua()
+- Resolvers Added:
+    - None
+- Resolvers Fixed/Updated:
+    - rapidvideo.com
+    - daclips
+    - movpod
+    - entervideo
+- Resolvers Removed
+    - rapidvideo.ws (not rapidvideo.com)
+- Languages Added/Updated
+    - None
+
+[B]Version 5.0.14 (August 19, 2018)[/B]
+- Code Base Changes:
+    - jsunpack
+- Resolvers Added:
+    - unitplay
+    - tocloud
+    - videozupload
+    - gofile
+- Resolvers Fixed/Updated:
+    - powvideo
+    - openload
+    - speedvid
+    - thevid
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+    - None
+
+[B]Version 5.0.13 (August 05, 2018)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - vidorg
+- Resolvers Fixed/Updated:
+    - vidup.me
+    - waaw
+    - estream
+    - streamango
+    - flashx
+    - thevideo
+    - youtube
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+    - None
+
+[B]Version 5.0.12 (June 09, 2018)[/B]
+- Code Base Changes:
+    - None
+- Resolvers Added:
+    - None
+- Resolvers Fixed/Updated:
+    - alldebrid
+- Resolvers Removed
+    - None
+- Languages Added/Updated
+    - None
+
 [B]Version 5.0.11 (June 03, 2018)[/B]
 - Code Base Changes:
     - Update User-Agents
