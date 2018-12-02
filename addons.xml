@@ -829,6 +829,29 @@ transmission is a fast, easy and free BitTorrent client
   <extension point='xbmc.python.module'/>
 </addon>
 
+<addon id="plugin.video.filelist.ro" name="Filelist.ro" version="0.0.18" provider-name="Sarsailă">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="plugin.video.torrenter" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <size>173890</size>
+		<summary lang="en">Filelist.ro private tracker.</summary>
+		<description lang="en">Filelist.ro private tracker.</description>
+
+		<summary lang="ro">Filelist.ro private tracker.</summary>
+		<description lang="ro">Filelist.ro private tracker.</description>
+
+		<forum></forum>
+		<website></website>
+		<language>ro en</language>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
     <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
         <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
