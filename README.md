@@ -1,1 +1,1 @@
-Noul meu hobby
+Hobby-ul meu
