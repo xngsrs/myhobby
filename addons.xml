@@ -698,7 +698,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.49h"
+       version="1.0.49i"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -710,7 +710,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1181479</size>
+    <size>1181830</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -945,7 +945,7 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.7.1a" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.7.1b" provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -960,7 +960,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>1312167</size>
+    <size>1312294</size>
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
         </summary>
