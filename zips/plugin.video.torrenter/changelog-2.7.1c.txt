@@ -1,4 +1,10 @@
-﻿[B]Version 2.6.7[/B]
+﻿[B]Version 2.7.1c[/B]
+Append "&keepseed=true" to plugin url call to keep seeding files, if python-libtorrent is selected and save files, for use with different providers if want some to seed
+Added "m2ts" and "3gp" to playable content when playSTRM is called
+Minimised temporary file writing (that was throwing errors on slower sd-card with coreelec or libreelec) 
+Some other fixes
+
+[B]Version 2.6.7[/B]
 [+] Теперь можно указать порт SOCKS-прокси, при использоании прокси Tor
 [+] Списки медиа: исправлен RiperAM
 [+] .torrent Player: Исправлена работа c длинными названиями
