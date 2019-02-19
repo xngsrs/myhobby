@@ -454,26 +454,26 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.8" provider-name="Sarsailă">
+<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.9" provider-name="Sarsailă">
     <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
-                <dir>
-                    <info compressed="false">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
-                    <checksum>https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
-                    <datadir zip="true">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
-                </dir>
-                <dir>
-                    <info compressed="false">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml</info>
-                    <checksum>https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
-                    <datadir zip="true">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/zips/</datadir>
-                </dir>
-                <dir>
-                    <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-                    <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
-                    <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
-                </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
+            <checksum>https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
+            <datadir zip="true">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml</info>
+            <checksum>https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/zips/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>5256</size>
+    <size>5257</size>
         <summary>Install Addons from Sarsa repo</summary>
         <description>Download and install addons for Kodi.</description>
         <disclaimer>Sarsailă</disclaimer>
@@ -698,7 +698,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.50c"
+       version="1.0.50d"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -710,7 +710,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1214719</size>
+    <size>1257333</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
