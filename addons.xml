@@ -25,27 +25,6 @@
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="plugin.video.serialeonlinero"
-       name="SerialeOnline.ro"
-       version="1.0.0"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>449080</size>
-    <summary>Seriale subtitrate de pe Filme-Seriale.online</summary>
-    <description>Vizioneaza serialele subtitrate disponibile pe serialeonline.ro</description>
-    <platform>all</platform>
-    <news>Initial version</news>
-  </extension>
-</addon>
-
 <addon id="script.module.mutagen"
        name="mutagen"
        version="1.22.0"
@@ -72,45 +51,6 @@ level.</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <website>http://code.google.com/p/mutagen/</website>
     <source>https://bitbucket.org/lazka/mutagen/overview</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvrplus"
-       name="TvrPlus"
-       version="1.1.2"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>169334</size>
-    <summary>Emisiuni TvrPlus</summary>
-    <description>Urmareste emisiunile aflate pe TvrPlus.ro</description>
-    <platform>all</platform>
-    <news>site in reconstructie, temporar disponibile numai programele Live</news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.tvmaniabgcom"
-       name="TVManiaBG.com"
-       version="1.0.5"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>198758</size>
-    <summary>Live video from TvManiaBG.com</summary>
-    <description>Watch live streaming video from TvManiaBG.com</description>
-    <platform>all</platform>
   </extension>
 </addon>
 
@@ -156,7 +96,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.27c" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.27d" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -167,7 +107,7 @@ level.</description>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>666567</size>
+    <size>666708</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -197,52 +137,6 @@ level.</description>
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
-	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
-	<dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	</dir>
-
-    <dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
-    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-    <size>182801</size>
-		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
-		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
-
-Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
-         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
-		<platform>all</platform>
-                <forum>https://www.tvaddons.co/forums</forum>
-                <website>https://www.tvaddons.co</website>
-	</extension>
-</addon>
-
-<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.9" provider-name="Colossal">
-    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
-    <dir>
-        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-    </dir>
-        <info compressed="false">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/covenantkodi/repository.colossus/master/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <size>416293</size>
-        <summary>Home Of 3rd Party Addons</summary>
-        <description></description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.30" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
@@ -264,25 +158,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
 	</extension>
-</addon>
-
-<addon id="plugin.video.protvro"
-       name="Protv.ro"
-       version="1.1.7"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>1069496</size>
-    <summary>Emisiuni Protv.ro</summary>
-    <description>Urmareste emisiunile si serialele difuzate pe ProTV</description>
-    <platform>all</platform>
-  </extension>
 </addon>
 
 <addon id="plugin.video.klatvro"
@@ -414,7 +289,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.2.7"
+       version="1.2.8"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -422,7 +297,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>717663</size>
+    <size>720494</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -545,7 +420,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.2.6"
+       version="1.2.7"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -553,7 +428,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>106994</size>
+    <size>109787</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -698,11 +573,10 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.51f"
+       version="1.0.51g"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
     <import addon="script.module.resolveurl" version="5.0.06"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -710,7 +584,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1333546</size>
+    <size>1368867</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -921,27 +795,6 @@ transmission is a fast, easy and free BitTorrent client
     <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
     <platform>all</platform>
     <news>fix links</news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.filmeserialeonline"
-       name="Filme-Seriale.online"
-       version="1.2.2"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>282934</size>
-    <summary>Filme si seriale subtitrate de pe Filme-Seriale.online</summary>
-    <description>Vizioneaza filmele si serialele subtitrate disponibile pe Filme-Seriale.online</description>
-    <platform>all</platform>
-    <news>removed mrknow urlresolver</news>
   </extension>
 </addon>
 
