@@ -1,12 +1,16 @@
-﻿[B]Version 2.7.1c[/B]
-Append "&keepseed=true" to plugin url call to keep seeding files, if python-libtorrent is selected and save files, for use with different providers if want some to seed
-Added "m2ts" and "3gp" to playable content when playSTRM is called
-Minimised temporary file writing (that was throwing errors on slower sd-card with coreelec or libreelec) 
-Some other fixes
+﻿[B]Version 2.7.5[/B]
+Fixed a number of errors in log file from long time
+
 [B]Version 2.7.3[/B]
 added flags: - seedtransmission for keep seeding in transmission
              - seedtorrenter for keep seeding in libtorrent
-             - trakton=true combined with externaddon=plugin.video.myaddon to call external addon with progress time and filename for trakt integration 
+             - trakton=true combined with externaddon=plugin.video.myaddon to call external addon with progress time and filename for trakt integration
+             
+[B]Version 2.7.1c[/B]
+Append "&keepseed=true" to plugin url call to keep seeding files, if python-libtorrent is selected and save files, for use with different providers if want some to seed
+Added "m2ts" and "3gp" to playable content when playSTRM is called
+Minimised temporary file writing (that was throwing errors on slower sd-card with coreelec or libreelec) 
+Some other fixes 
 
 [B]Version 2.6.7[/B]
 [+] Теперь можно указать порт SOCKS-прокси, при использоании прокси Tor
