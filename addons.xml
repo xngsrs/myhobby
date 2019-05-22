@@ -96,7 +96,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.29a" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.31a" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -107,7 +107,7 @@ level.</description>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>666019</size>
+    <size>669856</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -137,7 +137,7 @@ level.</description>
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.35" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.36" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -148,7 +148,7 @@ level.</description>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
-    <size>730339</size>
+    <size>734182</size>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -573,7 +573,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.54c"
+       version="1.0.54d"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -584,7 +584,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1386568</size>
+    <size>1343954</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
