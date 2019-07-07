@@ -331,7 +331,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.0.9" provider-name="Sarsailă">
+<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.1.0" provider-name="Sarsailă">
     <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
@@ -339,18 +339,18 @@ level.</description>
             <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
-            <checksum>https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
-            <datadir zip="true">https://api.bitbucket.org/1.0/repositories/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
+            <info compressed="false">https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml</info>
+            <checksum>https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/addons.xml.md5</checksum>
+            <datadir zip="true">https://bitbucket.org/DiMartino/myshows.me-kodi-repo/raw/default/repo/</datadir>
         </dir>
         <dir>
-            <info compressed="false">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml</info>
-            <checksum>https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://api.bitbucket.org/1.0/repositories/xngsrs/myhobby/raw/master/zips/</datadir>
+            <info compressed="false">https://bitbucket.org/xngsrs/myhobby/raw/master/addons.xml</info>
+            <checksum>https://bitbucket.org/xngsrs/myhobby/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://bitbucket.org/xngsrs/myhobby/raw/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>5257</size>
+    <size>5245</size>
         <summary>Install Addons from Sarsa repo</summary>
         <description>Download and install addons for Kodi.</description>
         <disclaimer>Sarsailă</disclaimer>
