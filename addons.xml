@@ -96,7 +96,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.34b" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.35" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -107,7 +107,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>691825</size>
+    <size>691321</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -138,7 +138,7 @@ level.</description>
   <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.39" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.42" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -149,7 +149,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>755323</size>
+    <size>755306</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -360,7 +360,7 @@ level.</description>
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.0.2"
+       version="2.0.3"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -368,7 +368,7 @@ level.</description>
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>590972</size>
+    <size>661352</size>
         <summary lang="en">Get subtitles from Subscene.com</summary>
         <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
 Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
@@ -424,7 +424,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="3.0.1"
+       version="3.0.3"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -432,7 +432,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>518583</size>
+    <size>521040</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -600,7 +600,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.54l"
+       version="1.0.54m"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -611,7 +611,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1336414</size>
+    <size>1336500</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -825,7 +825,7 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.7.5a" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" name="Torrenter" version="2.7.6" provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -840,7 +840,7 @@ transmission is a fast, easy and free BitTorrent client
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-    <size>1315070</size>
+    <size>1317234</size>
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
         </summary>
