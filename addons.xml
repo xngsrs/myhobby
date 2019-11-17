@@ -96,7 +96,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.36b" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.36c" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -107,7 +107,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>695020</size>
+    <size>693371</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -675,7 +675,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.55a"
+       version="1.0.55b"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -686,7 +686,7 @@ v5.2.14 (2017-01-23)
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1338889</size>
+    <size>1338852</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
