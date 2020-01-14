@@ -1,0 +1,44 @@
+v1.6.3
+- compatibility update for Raspberry Pi
+
+v1.6.2
+- Better blacklist processing
+- Option for filtering text between music notes
+- Use OS line breaks for better output
+
+v1.6.1
+- Option for cleaning only current playing file
+- Only look for specific languages
+
+v1.5.2
+- Timeout for slower systems
+- Jump back to start after cleaning
+
+v1.5.1
+- Wait for conflicting addons
+
+v1.4.4
+- Always create backup in debug mode
+
+v1.4.3
+- changed version numbering
+- Bugfix for duplicate debug files
+
+v1.4
+- First beta!
+- Keep source setting added
+- Remove replacement tags when debug mode is disabled
+
+v1.3
+- Continue directly (no more restarting of video)
+
+v1.2
+- Added filter settings
+- Added auto start option
+
+v1.1
+- Fix for too greedy regex
+- Some minor cleanup
+
+v1.0
+- Initial version
