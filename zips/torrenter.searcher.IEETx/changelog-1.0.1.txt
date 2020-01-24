@@ -1,2 +1,0 @@
-﻿1.0.0
-searcher for 1337x, named IEETx for compatibillity issues

@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id='torrenter.searcher.KickAssSo' version='1.0.9'
-     name='Torrenter Searcher: KickAssSo' provider-name='DiMartino, Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>32957</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for KickAss.So.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for KickAss.So.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-        <summary lang='ru'>Серчер трекера KickAss.So для плагина Torrenter v2.
-        </summary>
-        <description lang='ru'>Серчер трекера KickAss.So для плагина Torrenter v2.
-        </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
 <addon id="script.module.mutagen"
        name="mutagen"
        version="1.22.0"
@@ -111,7 +86,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38c" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38d" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -122,7 +97,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>700197</size>
+    <size>700201</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -131,26 +106,6 @@ level.</description>
         <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
         <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
     </extension>
-</addon>
-
-<addon id='torrenter.searcher.FileListRO' version='1.0.9'
-     name='Torrenter Searcher: FileListRO' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>53253</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for FileList.RO.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for FileList.RO.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.48" provider-name="tvaddons">
@@ -217,31 +172,6 @@ level.</description>
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.Torrentz' version='1.0.2'
-     name='Torrenter Searcher: Torrentz2' provider-name='DiMartino, Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>9865</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for Torrentz2.eu.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for Torrentz2.eu.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-        <summary lang='ru'>Серчер трекера Torrentz.eu для плагина Torrenter v2.
-        </summary>
-        <description lang='ru'>Серчер трекера Torrentz.eu для плагина Torrenter v2.
-        </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
 <addon id="service.subtitles.rosateamro"
        name="RoSA-Team.ro"
        version="1.0.2a"
@@ -282,26 +212,6 @@ level.</description>
     <description>Urmareste emisiunile aflate pe Digi24.ro</description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id='torrenter.searcher.RarBG' version='1.0.4'
-     name='Torrenter Searcher: RarBG' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>10611</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for RarBG.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for RarBG.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="service.subtitles.regielive"
@@ -417,26 +327,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.DataScene' version='1.0.4'
-     name='Torrenter Searcher: DataScene' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>47206</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for DataScene.net.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for DataScene.net.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
        version="3.0.3"
@@ -483,31 +373,6 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.ThePirateBay' version='1.0.7'
-     name='Torrenter Searcher: ThePirateBay' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>62324</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for ThePirateBay.Se.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-        <summary lang='ru'>Серчер трекера ThePirateBay.Se для плагина Torrenter v2.
-        </summary>
-        <description lang='ru'>Серчер трекера ThePirateBay.Se для плагина Torrenter v2.
-        </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
 <addon id="service.downloadmanager.transmission"
        name="Transmission"
        version="8.0.2a"
@@ -536,31 +401,6 @@ transmission is a fast, easy and free BitTorrent client
     </disclaimer>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id='torrenter.searcher.MagnetDL' version='1.0.4'
-     name='Torrenter Searcher: MagnetDL' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>74357</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for MagnetDL.com.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-        <summary lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
-        </summary>
-        <description lang='ru'>Серчер трекера MagnetDL.com для плагина Torrenter v2.
-        </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="service.subtitles.titrariro"
@@ -690,7 +530,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.56a"
+       version="1.0.56b"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -701,7 +541,7 @@ v5.2.14 (2017-01-23)
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>1362246</size>
+    <size>1362298</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -754,26 +594,6 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id='torrenter.searcher.IEETx' version='1.0.1'
-     name='Torrenter Searcher: 1337x' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>30306</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for 1337x.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for 1337x.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
 <addon id="plugin.audio.romaniaradio"
        name="Romania Radio"
        version="1.0.0"
@@ -790,54 +610,6 @@ v5.2.14 (2017-01-23)
         <summary>Posturi Radio Romania</summary>
         <description>Posturi de radio romanesti colectate de pe romaniaradio.ro</description>
     </extension>
-</addon>
-
-<addon id='torrenter.searcher.ExtraTorrent' version='1.0.4'
-     name='Torrenter Searcher: ExtraTorrent' provider-name='DiMartino, Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>21110</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for ExtraTorrent.CC.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for ExtraTorrent.CC.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-        <summary lang='ru'>Серчер трекера ExtraTorrent.CC для плагина Torrenter v2.
-        </summary>
-        <description lang='ru'>Серчер трекера ExtraTorrent.CC для плагина Torrenter v2.
-        </description>
-        <disclaimer lang='ru'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
-</addon>
-
-<addon id="plugin.video.filelist.ro" name="Filelist.ro" version="0.0.18" provider-name="Sarsailă">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="plugin.video.torrenter" optional="true"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-    <size>173890</size>
-		<summary lang="en">Filelist.ro private tracker.</summary>
-		<description lang="en">Filelist.ro private tracker.</description>
-
-		<summary lang="ro">Filelist.ro private tracker.</summary>
-		<description lang="ro">Filelist.ro private tracker.</description>
-
-		<forum></forum>
-		<website></website>
-		<language>ro en</language>
-		<platform>all</platform>
-	</extension>
 </addon>
 
 <addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
@@ -950,26 +722,6 @@ v5.2.14 (2017-01-23)
 	<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
 	<source>https://github.com/inpos/plugin.video.torrenter</source>
     </extension>
-</addon>
-
-<addon id='torrenter.searcher.FluxZone' version='1.0.0'
-     name='Torrenter Searcher: FluxZone' provider-name='Sarsailă'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="__init__.py">
-    <provides>executable</provides>
-  </extension>
-      <extension point="xbmc.addon.metadata">
-    <size>37988</size>
-        <platform>all</platform>
-        <summary lang='en'>Torrenter v2 Searcher module for FluxZone.org.
-        </summary>
-        <description lang='en'>Torrenter v2 Searcher module for FluxZone.org.
-        </description>
-        <disclaimer lang='en'>GNU GPLv3 http://www.gnu.org/licenses/</disclaimer>
-    </extension>
-  <extension point='xbmc.python.module'/>
 </addon>
 
 <addon id="plugin.video.emisiunionline"
