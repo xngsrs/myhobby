@@ -86,7 +86,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38e" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.39" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -97,7 +97,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>700206</size>
+    <size>700607</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -530,19 +530,22 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.57b"
+       version="1.0.58"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.resolveurl" version="5.0.06"/>
     <import addon="plugin.video.elementum" optional="true" />
+    <import addon="script.module.torrent2http" optional="true" />
+    <import addon="plugin.video.torrenter" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
+  <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>1362504</size>
+    <size>1470937</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -624,6 +627,28 @@ v5.2.14 (2017-01-23)
         <summary>Unofficial Resolvers for the Kodi Media Center</summary>
         <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
         <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.module.torrent2http" name="torrent2http" version="0.2.8" provider-name="anteo,DiMartino,-=Vd=-">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.requests" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+    <size>85460</size>
+        <platform>all</platform>
+        <language>en</language>
+        <summary lang="en">Downloads torrents and share it over HTTP</summary>
+        <summary lang="ru">Загружает торренты и раздает их по HTTP</summary>
+        <description lang="ru">Обеспечивает последовательную (sequential) загрузку торрентов для потокового онлайн просмотра через HTTP. Основан на библиотеке LibTorrent.</description>
+        <description lang="en">Provides sequential torrent downloading for online streaming video and other media over HTTP.</description>
+        <email>anteo@academ.org</email>
     </extension>
 </addon>
 
