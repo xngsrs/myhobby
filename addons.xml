@@ -530,7 +530,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.0.67"
+       version="1.0.68"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -546,7 +546,7 @@ v5.2.14 (2017-01-23)
   </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>1513018</size>
+    <size>1512984</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
