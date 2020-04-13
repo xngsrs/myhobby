@@ -86,7 +86,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.41c" provider-name="jsergio">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.42.01" provider-name="jsergio">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
@@ -97,7 +97,7 @@ level.</description>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>703298</size>
+    <size>709255</size>
         <platform>all</platform>
         <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -130,46 +130,6 @@ level.</description>
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
     </extension>
-</addon>
-
-<addon id="plugin.video.klatvro"
-       name="Kla.tv"
-       version="1.0.9"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>213728</size>
-    <summary>Video de pe kla.tv</summary>
-    <description>Vizualizeaza videoclipuri de pe kla.tv</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.filmehdnet"
-       name="FilmeHD.net"
-       version="1.1.7"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>667085</size>
-    <summary>Filme de pe FilmeHD.net</summary>
-    <description>Urmareste filme subtitrate in romana de pe FilmeHD.net</description>
-    <platform>all</platform>
-    <news>Reparat linkuri</news>
-  </extension>
 </addon>
 
 <addon id="service.subtitles.rosateamro"
@@ -285,7 +245,7 @@ level.</description>
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.0.3b"
+       version="2.0.4"
        provider-name="Sarsailă">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -293,7 +253,7 @@ level.</description>
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>661365</size>
+    <size>661473</size>
         <summary lang="en">Get subtitles from Subscene.com</summary>
         <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
 Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
@@ -639,7 +599,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.torrent2http" name="torrent2http" version="0.2.9b" provider-name="anteo,DiMartino,-=Vd=-">
+<addon id="script.module.torrent2http" name="torrent2http" version="0.3.0" provider-name="anteo,DiMartino,-=Vd=-">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.requests" optional="false"/>
@@ -650,7 +610,7 @@ v5.2.14 (2017-01-23)
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.metadata">
-    <size>86336</size>
+    <size>86320</size>
         <platform>all</platform>
         <language>en</language>
         <summary lang="en">Downloads torrents and share it over HTTP</summary>
@@ -757,26 +717,5 @@ v5.2.14 (2017-01-23)
 	<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
 	<source>https://github.com/inpos/plugin.video.torrenter</source>
     </extension>
-</addon>
-
-<addon id="plugin.video.emisiunionline"
-       name="Emisiuni-Online.ro"
-       version="1.0.6"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"  version="1.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>139625</size>
-    <summary>Emisiuni Tv de pe emisiuni-online.ro</summary>
-    <description>Urmareste emisiuni si seriale de pe emisiuni-online.ro</description>
-    <news>Fix links, added favorites and search history</news>
-    <platform>all</platform>
-  </extension>
 </addon>
 </addons>
