@@ -703,7 +703,7 @@ level.</description>
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.2.9"
+       version="1.3.0"
        provider-name="Sarsailă">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -711,7 +711,7 @@ level.</description>
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>720938</size>
+    <size>720940</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -720,7 +720,7 @@ level.</description>
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Removed year from search string</news>
+    <news>Disable cert verify</news>
   </extension>
 </addon>
 </addons>
