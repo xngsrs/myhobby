@@ -1,0 +1,15 @@
+Version 5.1.8 (September 7, 2020)
+- Code Base Changes:
+    - None
+
+- Resolvers Added:
+    - None
+ 
+- Resolvers Fixed/Updated:
+    - Premiumize
+
+- Resolvers Removed
+    - None
+
+- Languages Added/Updated
+    - None
