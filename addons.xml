@@ -492,18 +492,18 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.rofilmedocumentare"
        name="FilmeDocumentare.com"
-       version="1.0.6"
+       version="1.0.7"
        provider-name="Sarsailă">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
+    <!--     <import addon="xbmc.python" version="2.1.0"/> -->
+    <import addon="script.module.resolveurl" version="5.0.06"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>381649</size>
+    <size>381686</size>
     <summary>FilmeDocumentare.com</summary>
     <description>Urmărește documentare traduse in limba Română culese de pe FilmeDocumentare.com</description>
     <platform>all</platform>
