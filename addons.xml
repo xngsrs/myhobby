@@ -286,7 +286,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.10.02" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.12.01" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" version="0.0.1"/>
@@ -298,7 +298,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>688874</size>
+    <size>690757</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
