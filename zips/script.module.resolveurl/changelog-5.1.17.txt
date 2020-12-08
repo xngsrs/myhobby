@@ -1,14 +1,12 @@
-Version 5.1.14 (November 17, 2020)
+Version 5.1.17 (December 07, 2020)
 - Code Base Changes:
-    - None
+    - Regression error with PY2
 
 - Resolvers Added:
-    - Letsupload
+    - None
  
 - Resolvers Fixed/Updated:
-    - FEmbed
-    - Streamz
-    - Streamtape
+    - None 
 
 - Resolvers Removed
     - None
