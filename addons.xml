@@ -286,7 +286,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.17.02" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.18" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -299,7 +299,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>695024</size>
+    <size>695694</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -550,7 +550,7 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id="script.module.torrent2http" name="torrent2http" version="0.4.6" provider-name="anteo,DiMartino,-=Vd=-">
+<addon id="script.module.torrent2http" name="torrent2http" version="0.4.7" provider-name="anteo,DiMartino,-=Vd=-">
     <requires>
         <!-- <import addon="xbmc.python" version="2.14.0"/> -->
 		<import addon="script.module.requests" optional="false"/>
@@ -561,7 +561,7 @@ transmission is a fast, easy and free BitTorrent client
 	</extension>
 	<extension point="xbmc.service" library="service.py" name="torrent2http.service" />
     <extension point="xbmc.addon.metadata">
-    <size>158589</size>
+    <size>158830</size>
         <platform>all</platform>
         <language>en</language>
         <summary lang="en">Downloads torrents and share it over HTTP</summary>
@@ -574,7 +574,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.19"
+       version="1.1.20"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -598,7 +598,7 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>1992771</size>
+    <size>2007492</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
