@@ -471,12 +471,12 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.3.1"
+       version="1.3.2"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>110589</size>
+    <size>110680</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -491,12 +491,12 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.2.5"
+       version="1.2.6"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>564670</size>
+    <size>636035</size>
     <summary lang="en">Subtitrari-noi.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -738,12 +738,12 @@ level.</description>
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.3.2"
+       version="1.3.3"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>720932</size>
+    <size>720989</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
