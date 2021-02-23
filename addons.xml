@@ -2,12 +2,12 @@
 <addons>
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="3.0.7"
+       version="3.0.8"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>521567</size>
+    <size>521603</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -17,6 +17,9 @@
         <website/>
         <email/>
         <source>https://github.com/xngsrs/myhobby</source>
+        <assets>
+        <icon>logo.png</icon>
+        </assets>
     </extension>
 </addon>
 
@@ -201,12 +204,12 @@
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
        name="OpenSubtitles.org by OpenSubtitles"
-       version="5.3.0"
+       version="5.3.1"
        provider-name="amet, opensubtitles">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>389285</size>
+    <size>389295</size>
     <summary>OpenSubtitles by OpenSubtitles.org</summary>
     <description lang="en">Anonymously search and download subtitles for movies and TV-Series from OpenSubtitles.org without log-in. Search in 75 languages, 4.000.000+ subtitles, daily updates. </description>
 	<description lang="at">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
@@ -318,12 +321,12 @@ v5.2.14 (2017-01-23)
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.0.6"
+       version="2.0.7"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>661823</size>
+    <size>661923</size>
         <summary lang="en">Get subtitles from Subscene.com</summary>
         <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
 Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
@@ -335,6 +338,9 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
         <website/>
         <email/>
         <source>https://github.com/manacker/service.subtitles.subscene</source>
+        <assets>
+        <icon>logo.png</icon>
+        </assets>
     </extension>
 </addon>
 
