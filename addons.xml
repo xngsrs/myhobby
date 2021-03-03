@@ -591,7 +591,7 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id="script.module.torrent2http" name="torrent2http" version="0.5.8" provider-name="anteo,DiMartino,-=Vd=-">
+<addon id="script.module.torrent2http" name="torrent2http" version="0.5.9" provider-name="anteo,DiMartino,-=Vd=-">
     <requires>
         <!-- <import addon="xbmc.python" version="2.14.0"/> -->
 		<import addon="script.module.requests" optional="false"/>
@@ -602,7 +602,7 @@ transmission is a fast, easy and free BitTorrent client
 	</extension>
 	<extension point="xbmc.service" library="service.py" name="torrent2http.service" />
     <extension point="xbmc.addon.metadata">
-    <size>159238</size>
+    <size>159240</size>
         <platform>all</platform>
         <language>en</language>
         <summary lang="en">Downloads torrents and share it over HTTP</summary>
