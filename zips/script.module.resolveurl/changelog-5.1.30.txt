@@ -1,12 +1,14 @@
-Version 5.1.28 (April 3, 2021)
+Version 5.1.30 (April 28, 2021)
 - Code Base Changes:
-    - HostedMediaFile add __bool__ for python 3
+    - update jsunpack to handle non ascii strings
 
 - Resolvers Added:
-    - streamoupload
+    - sendfox
+    - sbembed
+    - rumble
  
 - Resolvers Fixed/Updated:
-    - fembed
+    - userload
 
 - Resolvers Removed
     - None
