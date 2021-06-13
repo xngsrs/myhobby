@@ -1,0 +1,9 @@
+1. Descarca t2http.tar.gz
+2. Dezarhiveaza t2http.tar.gz
+3. Editeaza self.storage_path din folderul unde ai dezarhivat t2http/lib/torrent2http/remote/remotesettings.py ca sa reflecte folderul in care vrei sa descarci torrentii ( implicit, folderul este in locatia unde ai dezarhivat t2http/Torrents)
+4. porneste serviciul cu comanda: python service.py  (merge si cu python2 si cu python 3)
+5. pentru linux, daca vrei autostart, foloseste torrent2http.service (dupa ce editezi calea in care se gaseste service.py (din arhiva))
+6. In MRSP, mergi la Setari -> MRSP Torrent player si debifeaza Activeaza MRSP server
+7. In MRSP, mergi la Torrent -> Setari Torrent2http si schimba la Role sa fie client, apoi la Host sa fie ip-ul aparatului pe care ai pornit serviciul t2http, apoi la Port pui 2830
+8. Restartezi kodi si aia e tot.
+
