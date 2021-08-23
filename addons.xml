@@ -2,12 +2,12 @@
 <addons>
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="3.0.9"
+       version="3.1.0"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>521652</size>
+    <size>521653</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -615,7 +615,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.58"
+       version="1.1.59"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -639,7 +639,7 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2127144</size>
+    <size>2126326</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
@@ -765,12 +765,12 @@ level.</description>
 
 <addon id="service.subtitles.regielive"
        name="Regielive"
-       version="1.3.4"
+       version="1.3.5"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>720751</size>
+    <size>720750</size>
     <summary lang="en">Regielive</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
     <disclaimer lang="en"></disclaimer>
