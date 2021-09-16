@@ -495,12 +495,12 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.3.4"
+       version="1.3.5"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>110715</size>
+    <size>110712</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
