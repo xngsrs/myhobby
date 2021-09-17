@@ -495,12 +495,15 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.3.5"
+       version="1.3.6"
        provider-name="Sarsailă">
+    <requires>
+        <import addon="vfs.rar" optional="true"/>
+    </requires>
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>110712</size>
+    <size>110890</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -510,6 +513,9 @@ transmission is a fast, easy and free BitTorrent client
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
     <news>Workaround for rar archive because kodi disabled rar support</news>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>
 
