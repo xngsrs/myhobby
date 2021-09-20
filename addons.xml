@@ -621,7 +621,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.60"
+       version="1.1.61"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -645,12 +645,22 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2126486</size>
+    <size>2126941</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
+    <news>
+        1.1.61
+        [reparat] Cinemagia Anumite texte din țări și genuri nu erau afișate corect
+        [reparat] Paginare Clicksud
+        [reparat] Fsonline regex
+        [nou] Fsonline descrierea filmelor de pe site
+        [reparat] fetchData adăuga alt User-Agent, chiar dacă era specificat
+        1.1.60
+        [nou] Adăugat ani în meniul Imdb după afișarea filmelor
+    </news>
     <assets>
         <icon>icon.png</icon>
     </assets>
