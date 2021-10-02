@@ -308,7 +308,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.41.01" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.43" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -320,7 +320,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>736795</size>
+    <size>739306</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -621,7 +621,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.61"
+       version="1.1.62a"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -645,13 +645,17 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2126941</size>
+    <size>2127154</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
     <news>
+        1.1.62a
+        [reparat] FSGratis nu mai mergea
+        [reparat] Setările autosub nu respectau vizibilitatea la selecție
+        [reparat] Search MRSP din IMDb Browser nu funcționa
         1.1.61
         [reparat] Cinemagia Anumite texte din țări și genuri nu erau afișate corect
         [reparat] Paginare Clicksud
