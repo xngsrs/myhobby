@@ -2,12 +2,12 @@
 <addons>
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="3.1.0"
+       version="3.1.1"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>521653</size>
+    <size>521663</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -341,12 +341,12 @@ v5.2.14 (2017-01-23)
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.0.7"
+       version="2.0.8"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>661923</size>
+    <size>661937</size>
         <summary lang="en">Get subtitles from Subscene.com</summary>
         <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
 Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
@@ -622,7 +622,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.64"
+       version="1.1.65"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -646,13 +646,16 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2127535</size>
+    <size>2128748</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
     <news>
+        1.1.65
+        [reparat] Reparat Clicksud
+        [adaugat] Adaugat din nou Datascene
         1.1.64
         [reparat] FsOnline nu are rezultate la căutări
         [reparat] FsOnline nu merge sortarea după ani
