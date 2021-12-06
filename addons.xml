@@ -622,7 +622,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.68"
+       version="1.1.69"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -646,48 +646,23 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2129192</size>
+    <size>2128841</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
     <news>
-        1.1.68
-        [reparat] Schimbari din nou la Clicksud
-        [sters] sters divxfilmeonline, lipsa de link-uri
-        [sters] sters FSGratis, lipsa de link-uri
-        [code] mici modificari in cod
+        1.1.69
+        [torrent] reparat Datascene
+        [torrent] reparat Zooqle
+        [torrent] reparat yourbittorrent
 
-        1.1.67
-        [reparat] Imdb info nu mai arăta runtime si distributia
-        [reparat] Context meniu play arata torrenter si elementum chiar daca nu sunt instalate
-        [reparat] Glotorrents nu mai merge
-        1.1.66
-        [reparat] Partial imbunatatit Clicksud
-        [reparat] Imbunatatit Dozaanimata
-        1.1.65
-        [reparat] Reparat Clicksud
-        [adaugat] Adaugat din nou Datascene
-        1.1.64
-        [reparat] FsOnline nu are rezultate la căutări
-        [reparat] FsOnline nu merge sortarea după ani
-        [reparat] Eztv numele include taguri de imagine
-        1.1.63
-        [adăugat] Poziție fereastră info la pauză MRSP Torrent Player (Sus și Mijloc)
-        [adăugat] Opțiune de stop și stop cu forțare ștergere fisiere descărcate la meniul contextual din Intern Torrent
-        1.1.62a
-        [reparat] FSGratis nu mai mergea
-        [reparat] Setările autosub nu respectau vizibilitatea la selecție
-        [reparat] Search MRSP din IMDb Browser nu funcționa
-        1.1.61
-        [reparat] Cinemagia Anumite texte din țări și genuri nu erau afișate corect
-        [reparat] Paginare Clicksud
-        [reparat] Fsonline regex
-        [nou] Fsonline descrierea filmelor de pe site
-        [reparat] fetchData adăuga alt User-Agent, chiar dacă era specificat
-        1.1.60
-        [nou] Adăugat ani în meniul Imdb după afișarea filmelor
+        1.1.68
+        [streams] Schimbari din nou la Clicksud
+        [streams] sters divxfilmeonline, lipsa de link-uri
+        [streams] sters FSGratis, lipsa de link-uri
+        [code] mici modificari in cod
     </news>
     <assets>
         <icon>icon.png</icon>
