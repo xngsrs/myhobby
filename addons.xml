@@ -2,12 +2,12 @@
 <addons>
 <addon id="service.subtitles.addic7ed"
        name="Addic7ed.com"
-       version="3.1.1"
+       version="3.1.2"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>521663</size>
+    <size>521828</size>
         <summary lang="en">Get subtitles from Addic7ed.com</summary>
         <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
         <disclaimer lang="en"/>
@@ -20,6 +20,11 @@
         <assets>
         <icon>logo.png</icon>
         </assets>
+        <news>
+            3.1.2
+            - python 3.10 compatibil
+            - foarte mici imbunatatiri cod preluare informatii
+        </news>
     </extension>
 </addon>
 
@@ -166,12 +171,12 @@
 
 <addon id="service.subtitles.titrariro"
        name="Titrari.ro"
-       version="1.2.8"
+       version="1.2.9"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>626004</size>
+    <size>626162</size>
     <summary lang="en">Titrari.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -180,7 +185,14 @@
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>Fix when download is srt</news>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+    <news>
+    1.2.9
+    - python 3.10 compatibil
+    - add kodi 19 icon
+    </news>
   </extension>
 </addon>
 
@@ -341,12 +353,12 @@ v5.2.14 (2017-01-23)
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
-       version="2.0.8"
+       version="2.0.9"
        provider-name="Sarsailă">
     <extension point="xbmc.subtitle.module"
                library="service.py"/>
     <extension point="xbmc.addon.metadata">
-    <size>661937</size>
+    <size>662061</size>
         <summary lang="en">Get subtitles from Subscene.com</summary>
         <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
 Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
@@ -361,6 +373,10 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
         <assets>
         <icon>logo.png</icon>
         </assets>
+        <news>
+        2.0.9
+        - python 3.10 compatibil
+        </news>
     </extension>
 </addon>
 
@@ -522,12 +538,12 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.2.9"
+       version="1.3.0"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>636267</size>
+    <size>636417</size>
     <summary lang="en">Subtitrari-noi.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -536,6 +552,13 @@ transmission is a fast, easy and free BitTorrent client
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+    <news>
+    1.3.0
+    - python 3.10 compatibil
+    </news>
   </extension>
 </addon>
 
@@ -578,26 +601,6 @@ transmission is a fast, easy and free BitTorrent client
     </extension>
 </addon>
 
-<addon id="service.subtitles.rosateamro"
-       name="RoSA-Team.ro"
-       version="1.0.5"
-       provider-name="Sarsailă">
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <size>521486</size>
-    <summary lang="en">RoSA-Team.ro</summary>
-    <description lang="en">Cauta si descarca subtitrari de pe rosa-team.ro</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website></website>
-    <email></email>
-    <source>https://github.com/xngsrs/myhobby</source>
-    <news>Added hack for long stream url</news>
-  </extension>
-</addon>
-
 <addon id="script.module.torrent2http" name="torrent2http" version="0.5.13" provider-name="anteo,DiMartino,-=Vd=-">
     <requires>
         <!-- <import addon="xbmc.python" version="2.14.0"/> -->
@@ -622,7 +625,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.70"
+       version="1.1.71"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -646,16 +649,21 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2129749</size>
+    <size>2129827</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
     <news>
+        1.1.71
+        [streams] imbunatatit cod preluare subtitrari online
+        [streams] reparat cautare portalultautv
+
         1.1.70
         [streams] adaugat FSOnline2
         [streams] modificat script preluare subtitrari din link
+        [code] compatibilitate si cu python 3.10
 
         1.1.69
         [torrent] reparat Datascene
