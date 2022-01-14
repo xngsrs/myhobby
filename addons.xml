@@ -448,7 +448,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.cinemagia"
        name="Cinemagia service"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="sarsailă, moromete">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -458,7 +458,7 @@ transmission is a fast, easy and free BitTorrent client
   <extension point="xbmc.python.library" library="default.py" />
   <extension point="xbmc.service" name="cinemagia.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <size>113456</size>
+    <size>113800</size>
     <platform>all</platform>
     <summary lang="en"></summary>
     <assets>
