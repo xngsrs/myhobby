@@ -448,17 +448,18 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.cinemagia"
        name="Cinemagia service"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="sarsailă, moromete">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests" version="2.9.1"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.python.library" library="default.py" />
   <extension point="xbmc.service" name="cinemagia.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <size>113800</size>
+    <size>113753</size>
     <platform>all</platform>
     <summary lang="en"></summary>
     <assets>
