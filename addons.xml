@@ -319,7 +319,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.69" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.72" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -331,7 +331,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>755637</size>
+    <size>757584</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -645,7 +645,7 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="plugin.video.romanianpack"
        name="Movies RO Sites Pack"
-       version="1.1.72a"
+       version="1.1.72b"
        provider-name="Sarsailă">
   <requires>
       <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -669,13 +669,16 @@ transmission is a fast, easy and free BitTorrent client
 </extension>
   <extension point="xbmc.service" name="mrsp.service" library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>2129632</size>
+    <size>2129804</size>
     <summary>Site-uri cu filme subtitrate in limba romana</summary>
     <description>Colectie de site-uri cu filme si seriale traduse in limba romana</description>
     <platform>all</platform>
     <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <disclaimer lang="ro">Autorul acestui supliment nu găzduiește conținutul găsit și nu are nicio legătură cu furnizorii de conținut. Acest supliment doar caută conținutul furnizat de site-uri web. Folosiți-l pe propria răspundere! </disclaimer>
     <news>
+       1.1.72b
+       [code] fix imdb info
+
        1.1.72a
        [code] fix imdb
 
@@ -684,32 +687,6 @@ transmission is a fast, easy and free BitTorrent client
         [streams] fix topfilmeonline
         [code] fix imdb trailer
 
-        1.1.71c
-        [code] mici reparatii (fsonline va prelua link-urile ceva mai greu)
-
-        1.1.71b
-        [code] fix torrents for android > 9
-        [code] fix imdb
-
-        1.1.71
-        [streams] imbunatatit cod preluare subtitrari online
-        [streams] reparat cautare portalultautv
-
-        1.1.70
-        [streams] adaugat FSOnline2
-        [streams] modificat script preluare subtitrari din link
-        [code] compatibilitate si cu python 3.10
-
-        1.1.69
-        [torrent] reparat Datascene
-        [torrent] reparat Zooqle
-        [torrent] reparat yourbittorrent
-
-        1.1.68
-        [streams] Schimbari din nou la Clicksud
-        [streams] sters divxfilmeonline, lipsa de link-uri
-        [streams] sters FSGratis, lipsa de link-uri
-        [code] mici modificari in cod
     </news>
     <assets>
         <icon>icon.png</icon>
