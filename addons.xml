@@ -319,7 +319,7 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.86" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.87" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -331,7 +331,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>776773</size>
+    <size>777805</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -558,12 +558,12 @@ transmission is a fast, easy and free BitTorrent client
 
 <addon id="service.subtitles.subtitrarinoiro"
        name="Subtitrari-noi.ro"
-       version="1.3.0"
+       version="1.3.1"
        provider-name="Sarsailă">
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>636417</size>
+    <size>636411</size>
     <summary lang="en">Subtitrari-noi.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
     <disclaimer lang="en"></disclaimer>
