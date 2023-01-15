@@ -1,124 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="service.subtitles.addic7ed"
-       name="Addic7ed.com"
-       version="3.1.3"
-       provider-name="Sarsailă">
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-    <size>521819</size>
-        <summary lang="en">Get subtitles from Addic7ed.com</summary>
-        <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
-        <disclaimer lang="en"/>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website/>
-        <email/>
-        <source>https://github.com/xngsrs/myhobby</source>
-        <assets>
-        <icon>logo.png</icon>
-        </assets>
-        <news>
-            3.1.2
-            - python 3.10 compatibil
-            - foarte mici imbunatatiri cod preluare informatii
-        </news>
-    </extension>
-</addon>
-
-<addon id="script.module.pyrrent2http" name="pyrrent2http" version="0.9.8" provider-name="inpos">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-        <import	addon="script.module.libtorrent" />
-        <import addon="script.module.chardet" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.python.script" library="default.py">
-    	<provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <size>49084</size>
-        <platform>all</platform>
-        <language>en</language>
-        <summary lang="en">Downloads torrents and share it over HTTP</summary>
-        <summary lang="ru">Загружает торренты и раздает их по HTTP</summary>
-        <description lang="ru">Обеспечивает последовательную (sequential) загрузку торрентов для потокового онлайн просмотра через HTTP. Основан на библиотеке LibTorrent.</description>
-        <description lang="en">Provides sequential torrent downloading for online streaming video and other media over HTTP.</description>
-        <email>inpos@yandex.ru</email>
-        <source>https://github.com/inpos/script.module.pyrrent2http</source></extension>
-</addon>
-
-<addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
-    <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
-        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <size>94704</size>
-        <summary>Unofficial Resolvers for the Kodi Media Center</summary>
-        <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="context.torrenter.dialog" name="Torrenter Search - Open dialog" version="1.0.3" provider-name="Sarsailă">
+<addon id="service.downloadmanager.transmission"
+       name="Transmission"
+       version="8.0.2a"
+       provider-name="not sure, but modified a little by Sarsailă">
   <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-  </requires>
-  <extension point="kodi.context.item" library="addon.py">
-    <item>
-      <label>32000</label>
-      <visible>stringcompare(YES,YES)</visible>
-    </item>
-  </extension>
-  <extension point="kodi.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Open Torrenter Search dialog from context menu in library and PVR</summary>
-	<summary lang="ru">Добавляет пункт "Torrenter Search" в контекстное меню</summary>
-    <description lang="en">Open Torrenter Search dialog from context menu in library and PVR </description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <forum></forum>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="service.subtitles.bsplayer"
-       name="BSPlayer"
-       version="0.3.0"
-       provider-name="realgam3, stdedos, sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <size>128705</size>
-    <summary lang="en">Kodi / XBMC BSPlayer Subtitles allows for downloading subtitles from the bsplayer subtitles community.</summary>
-    <description lang="en">Search and download various subtitles from the bsplayer subtitles community.</description>
-    <source>https://github.com/realgam3/service.subtitles.bsplayer</source>
-    <email>realgam3@gmail.com</email>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
-
-<addon id="plugin.video.220ro"
-       name="220.ro"
-       version="1.1.4"
-       provider-name="Sarsailă">
-  <requires>
+    <import addon="os.libreelec.tv" version="7.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8" />
+    <import addon="script.module.six" version="1.5.2" />
+
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
+  <extension point="xbmc.python.script"
+             library="default.py" />
+  <extension point="xbmc.service"
+             library="resources/lib/player.py"
+             start="startup"/>
   <extension point="xbmc.addon.metadata">
-    <size>182185</size>
-    <summary>Videoclipuri de pe 220.ro</summary>
-    <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
+    <size>6512237</size>
+    <summary>transmission: a fast, easy and free BitTorrent client</summary>
+    <description>
+transmission is a fast, easy and free BitTorrent client
+    </description>
+    <disclaimer>
+
+    </disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -142,59 +49,43 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cinepub"
-       name="cinepub.ro"
-       version="0.1.6"
-       provider-name="strainu">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
-    <extension point="xbmc.addon.metadata">
-    <size>30619</size>
-	<provides>video</provides>
-        <platform>all</platform>
-	<website>https://github.com/strainu/cinepub-kodi</website>
-        <license>MIT License</license>
-        <summary lang="en_us">Stream videos from www.cinepub.ro</summary>
-        <summary lang="ro_ro">Vezi filme de pe www.cinepub.ro</summary>
-        <description lang="en_us">Stream Romanian movies from [COLOR blue]www.cinepub.ro[/COLOR]</description>
-        <description lang="ro_ro">Vezi filme românești de pe [COLOR blue]www.cinepub.ro[/COLOR]</description>
-	<language>ro</language>
-	<forum></forum>
-	<source>https://github.com/strainu/cinepub-kodi</source>
-	<email></email>
-	<disclaimer lang="en_us">Use at your own risk</disclaimer>
-    </extension>
+<addon id='script.module.libtorrent' version='1.1.1g' name='python-libtorrent' provider-name='DiMartino, srg70, RussakHH, aisman, inpos'>
+  <requires>
+    <import addon='xbmc.python' version='2.1.0'/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.python.module" library="python_libtorrent"/>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>script.module.libtorrent is a Kodi module that makes easy import of python-libtorrent for you.</summary>
+    <summary lang='ru'>script.module.libtorrent - модуль Kodi, который упрощает импорт библиотеки python-libtorrent.</summary>
+    <summary lang='es'>script.module.libtorrent es un módulo de Kodi que facilita la importación de la librería python-libtorrent.</summary>
+    <license>MIT License</license>
+    <source>https://github.com/DiMartinoXBMC/script.module.libtorrent</source>
+  </extension>
+  <extension point='xbmc.python.module'/>
 </addon>
 
-<addon id="service.subtitles.titrariro"
-       name="Titrari.ro"
-       version="1.3.1"
+<addon id="plugin.video.rofilmedocumentare"
+       name="FilmeDocumentare.com"
+       version="1.0.7"
        provider-name="Sarsailă">
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
+  <requires>
+    <!--     <import addon="xbmc.python" version="2.1.0"/> -->
+    <import addon="script.module.resolveurl" version="5.0.06"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
   <extension point="xbmc.addon.metadata">
-    <size>626162</size>
-    <summary lang="en">Titrari.ro</summary>
-    <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
-    <disclaimer lang="en"></disclaimer>
+    <size>381686</size>
+    <summary>FilmeDocumentare.com</summary>
+    <description>Urmărește documentare traduse in limba Română culese de pe FilmeDocumentare.com</description>
     <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website></website>
-    <email></email>
-    <source>https://github.com/xngsrs/myhobby</source>
-    <assets>
-        <icon>icon.png</icon>
-    </assets>
-    <news>
-      1.3.1
-      - python 3.11 compatibil
-
-    1.3.0
-    - fix
-    </news>
+    <news>Fix hanging on link retrieve</news>
   </extension>
 </addon>
 
@@ -233,6 +124,93 @@
 	<website>http://xbmc.ru/forum/showthread.php?t=6837</website>
 	<source>https://github.com/inpos/plugin.video.torrenter</source>
     </extension>
+</addon>
+
+<addon id="service.subtitles.regielive"
+       name="Regielive"
+       version="1.3.7"
+       provider-name="Sarsailă">
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <size>720905</size>
+    <summary lang="en">Regielive</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+    <news>
+      1.3.7
+      - python 3.11 compatibil
+    1.3.6
+    Dezactivat verificare certificate la descărcare (eroare pe unele sisteme Coreelec)
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.module.pyrrent2http" name="pyrrent2http" version="0.9.8" provider-name="inpos">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import	addon="script.module.libtorrent" />
+        <import addon="script.module.chardet" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.python.script" library="default.py">
+    	<provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <size>49084</size>
+        <platform>all</platform>
+        <language>en</language>
+        <summary lang="en">Downloads torrents and share it over HTTP</summary>
+        <summary lang="ru">Загружает торренты и раздает их по HTTP</summary>
+        <description lang="ru">Обеспечивает последовательную (sequential) загрузку торрентов для потокового онлайн просмотра через HTTP. Основан на библиотеке LibTorrent.</description>
+        <description lang="en">Provides sequential torrent downloading for online streaming video and other media over HTTP.</description>
+        <email>inpos@yandex.ru</email>
+        <source>https://github.com/inpos/script.module.pyrrent2http</source></extension>
+</addon>
+
+<addon id="plugin.video.desene3dcom"
+       name="Desene3d.com"
+       version="1.1.3"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <size>143816</size>
+    <summary>continut video Deseneanimate3D.com</summary>
+    <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
+    <platform>all</platform>
+    <news>fix links</news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.triluliluro"
+       name="trilulilu.ro"
+       version="2.0.9"
+       provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <size>195771</size>
+    <summary>Filme online de la trilulilu.ro</summary>
+    <description>Urmareste videoclipuri de pe trilulilu.ro</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="service.subtitles.opensubtitles_by_opensubtitles"
@@ -307,19 +285,51 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="service.sublime"
-    name="Sublime" version="1.6.3" provider-name="Tommie82">
-    <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
-    </requires>
-    <extension point="xbmc.service" library="default.py" start="login"></extension>
+<addon id="service.subtitles.bsplayer"
+       name="BSPlayer"
+       version="0.3.0"
+       provider-name="realgam3, stdedos, sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <size>128705</size>
+    <summary lang="en">Kodi / XBMC BSPlayer Subtitles allows for downloading subtitles from the bsplayer subtitles community.</summary>
+    <description lang="en">Search and download various subtitles from the bsplayer subtitles community.</description>
+    <source>https://github.com/realgam3/service.subtitles.bsplayer</source>
+    <email>realgam3@gmail.com</email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
 
-    <extension point="xbmc.addon.metadata">
-    <size>21416</size>
-        <summary>Subtitle cleaner for Kodi</summary>
-        <description>Subtitles come in a lot of different markups. HI tags, different font shapes, colours and sizes, ALL CAPS, author/syncher credits and nowadays even advertisements. Not all of these are just as bad, but they can be annoying. SubLime lets you choose which markup you wanna keep, and which you prefer to filter out.</description>
-        <platform>all</platform>
-    </extension>
+<addon id="service.subtitles.subtitrarinoiro"
+       name="Subtitrari-noi.ro"
+       version="1.3.2"
+       provider-name="Sarsailă">
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <size>636410</size>
+    <summary lang="en">Subtitrari-noi.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+    <news>
+      1.3.2
+      - python 3.11 compatibil
+    1.3.0
+    - python 3.10 compatibil
+    </news>
+  </extension>
 </addon>
 
 <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.87" provider-name="gujal">
@@ -352,164 +362,50 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="service.subtitles.subscene"
-       name="Subscene.com"
-       version="2.0.10"
+<addon id="service.subtitles.titrariro"
+       name="Titrari.ro"
+       version="1.3.1"
        provider-name="Sarsailă">
-    <extension point="xbmc.subtitle.module"
-               library="service.py"/>
-    <extension point="xbmc.addon.metadata">
-    <size>662062</size>
-        <summary lang="en">Get subtitles from Subscene.com</summary>
-        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
-Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
-        <disclaimer lang="en"/>
-        <platform>all</platform>
-        <language/>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
-        <website/>
-        <email/>
-        <source>https://github.com/manacker/service.subtitles.subscene</source>
-        <assets>
-        <icon>logo.png</icon>
-        </assets>
-        <news>
-        2.0.10
-        - python 3.11 compatibil
-
-        2.0.9
-        - python 3.10 compatibil
-        </news>
-    </extension>
-</addon>
-
-<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.1.1" provider-name="Sarsailă">
-    <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <size>5173</size>
-        <summary>Install Addons from Sarsa repo</summary>
-        <description>Download and install addons for Kodi.</description>
-        <disclaimer>Sarsailă</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="service.downloadmanager.transmission"
-       name="Transmission"
-       version="8.0.2a"
-       provider-name="not sure, but modified a little by Sarsailă">
-  <requires>
-    <import addon="os.libreelec.tv" version="7.0"/>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8" />
-    <import addon="script.module.six" version="1.5.2" />
-
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py" />
-  <extension point="xbmc.service"
-             library="resources/lib/player.py"
-             start="startup"/>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>6512237</size>
-    <summary>transmission: a fast, easy and free BitTorrent client</summary>
-    <description>
-transmission is a fast, easy and free BitTorrent client
-    </description>
-    <disclaimer>
-
-    </disclaimer>
+    <size>626162</size>
+    <summary lang="en">Titrari.ro</summary>
+    <description lang="en">Cauta si descarca subtitrari de pe titrari.ro</description>
+    <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.triluliluro"
-       name="trilulilu.ro"
-       version="2.0.9"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>195771</size>
-    <summary>Filme online de la trilulilu.ro</summary>
-    <description>Urmareste videoclipuri de pe trilulilu.ro</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="service.cinemagia"
-       name="Cinemagia service"
-       version="1.0.3"
-       provider-name="sarsailă, moromete">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.beautifulsoup4"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" />
-  <extension point="xbmc.python.library" library="default.py" />
-  <extension point="xbmc.service" name="cinemagia.service" library="service.py" start="login" />
-  <extension point="xbmc.addon.metadata">
-    <size>113752</size>
-    <platform>all</platform>
-    <summary lang="en"></summary>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/xngsrs/myhobby</source>
     <assets>
         <icon>icon.png</icon>
     </assets>
+    <news>
+      1.3.1
+      - python 3.11 compatibil
+
+    1.3.0
+    - fix
+    </news>
   </extension>
 </addon>
 
-<addon id="script.module.futures"
-       name="futures"
-       version="2.2.0"
-       provider-name="Brian Quinlan">
-  <extension point="xbmc.python.module"
-             library="lib"/>
-  <extension point="xbmc.addon.metadata">
-    <size>67519</size>
-    <summary>A futures implementation for Python</summary>
-    <description>Backport of the concurrent.futures package from Python 3.2</description>
-    <platform>all</platform>
-    <license>BSD</license>
-    <source>https://code.google.com/p/pythonfutures/source/browse</source>
-    <website>https://code.google.com/p/pythonfutures</website>
-  </extension>
-</addon>
-
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.48" provider-name="tvaddons">
+<addon id="plugin.program.indigostripped" version="2.0.9" name="Indigo Stripped" provider-name="TVA">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
+        <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable </provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-    <size>768549</size>
+    <size>4496245</size>
+        <summary lang="en">Indigo Maintenance</summary>
+        <description lang="en">Indigo Stripped down, for Maintenance and Info only.</description>
+        <disclaimer lang="en">This is a striped down version of Indigo, for maintenance only. Thank you TVAddons team for all your work</disclaimer>
+        <language>en</language>
         <platform>all</platform>
-        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
-        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
     </extension>
 </addon>
 
@@ -533,6 +429,27 @@ transmission is a fast, easy and free BitTorrent client
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
     </assets>
+  </extension>
+</addon>
+
+<addon id="context.torrenter.dialog" name="Torrenter Search - Open dialog" version="1.0.3" provider-name="Sarsailă">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="kodi.context.item" library="addon.py">
+    <item>
+      <label>32000</label>
+      <visible>stringcompare(YES,YES)</visible>
+    </item>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Open Torrenter Search dialog from context menu in library and PVR</summary>
+	<summary lang="ru">Добавляет пункт "Torrenter Search" в контекстное меню</summary>
+    <description lang="en">Open Torrenter Search dialog from context menu in library and PVR </description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <source></source>
   </extension>
 </addon>
 
@@ -562,93 +479,103 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id="service.subtitles.subtitrarinoiro"
-       name="Subtitrari-noi.ro"
-       version="1.3.2"
-       provider-name="Sarsailă">
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
+<addon id="script.module.futures"
+       name="futures"
+       version="2.2.0"
+       provider-name="Brian Quinlan">
+  <extension point="xbmc.python.module"
+             library="lib"/>
   <extension point="xbmc.addon.metadata">
-    <size>636410</size>
-    <summary lang="en">Subtitrari-noi.ro</summary>
-    <description lang="en">Cauta si descarca subtitrari de pe subtitrari-noi.ro</description>
-    <disclaimer lang="en"></disclaimer>
+    <size>67519</size>
+    <summary>A futures implementation for Python</summary>
+    <description>Backport of the concurrent.futures package from Python 3.2</description>
     <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website></website>
-    <email></email>
-    <source>https://github.com/xngsrs/myhobby</source>
-    <assets>
-        <icon>icon.png</icon>
-    </assets>
-    <news>
-      1.3.2
-      - python 3.11 compatibil
-    1.3.0
-    - python 3.10 compatibil
-    </news>
+    <license>BSD</license>
+    <source>https://code.google.com/p/pythonfutures/source/browse</source>
+    <website>https://code.google.com/p/pythonfutures</website>
   </extension>
 </addon>
 
-<addon id="plugin.video.rofilmedocumentare"
-       name="FilmeDocumentare.com"
-       version="1.0.7"
+<addon id="repository.sarsaila" name="Sarsailă's Addons" version="1.1.1" provider-name="Sarsailă">
+    <extension point="xbmc.addon.repository" name="Sarsailă's Addons">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xngsrs/myhobby/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/xngsrs/myhobby/raw/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <size>5173</size>
+        <summary>Install Addons from Sarsa repo</summary>
+        <description>Download and install addons for Kodi.</description>
+        <disclaimer>Sarsailă</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.220ro"
+       name="220.ro"
+       version="1.1.4"
        provider-name="Sarsailă">
   <requires>
-    <!--     <import addon="xbmc.python" version="2.1.0"/> -->
-    <import addon="script.module.resolveurl" version="5.0.06"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <size>381686</size>
-    <summary>FilmeDocumentare.com</summary>
-    <description>Urmărește documentare traduse in limba Română culese de pe FilmeDocumentare.com</description>
+    <size>182185</size>
+    <summary>Videoclipuri de pe 220.ro</summary>
+    <description>Urmareste filmulete funny, farse etc de pe 220.ro</description>
     <platform>all</platform>
-    <news>Fix hanging on link retrieve</news>
   </extension>
 </addon>
 
-<addon id="plugin.program.indigostripped" version="2.0.9" name="Indigo Stripped" provider-name="TVA">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.48" provider-name="tvaddons">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
     </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video executable </provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>4496245</size>
-        <summary lang="en">Indigo Maintenance</summary>
-        <description lang="en">Indigo Stripped down, for Maintenance and Info only.</description>
-        <disclaimer lang="en">This is a striped down version of Indigo, for maintenance only. Thank you TVAddons team for all your work</disclaimer>
-        <language>en</language>
+    <size>768549</size>
         <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
     </extension>
 </addon>
 
-<addon id="script.module.torrent2http" name="torrent2http" version="0.5.14" provider-name="anteo,DiMartino,-=Vd=-">
-    <requires>
-        <!-- <import addon="xbmc.python" version="2.14.0"/> -->
-		<import addon="script.module.requests" optional="false"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-	<extension point="xbmc.python.script" library="main.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" name="torrent2http.service" />
-    <extension point="xbmc.addon.metadata">
-    <size>159400</size>
-        <platform>all</platform>
-        <language>en</language>
-        <summary lang="en">Downloads torrents and share it over HTTP</summary>
-        <summary lang="ru">Загружает торренты и раздает их по HTTP</summary>
-        <description lang="ru">Обеспечивает последовательную (sequential) загрузку торрентов для потокового онлайн просмотра через HTTP. Основан на библиотеке LibTorrent.</description>
-        <description lang="en">Provides sequential torrent downloading for online streaming video and other media over HTTP.</description>
-        <email>anteo@academ.org</email>
-    </extension>
+<addon id="service.cinemagia"
+       name="Cinemagia service"
+       version="1.0.3"
+       provider-name="sarsailă, moromete">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.beautifulsoup4"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py" />
+  <extension point="xbmc.python.library" library="default.py" />
+  <extension point="xbmc.service" name="cinemagia.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <size>113752</size>
+    <platform>all</platform>
+    <summary lang="en"></summary>
+    <assets>
+        <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="plugin.video.romanianpack"
@@ -715,23 +642,161 @@ transmission is a fast, easy and free BitTorrent client
   </extension>
 </addon>
 
-<addon id='script.module.libtorrent' version='1.1.1g' name='python-libtorrent' provider-name='DiMartino, srg70, RussakHH, aisman, inpos'>
-  <requires>
-    <import addon='xbmc.python' version='2.1.0'/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.python.module" library="python_libtorrent"/>
-  <extension point='xbmc.addon.metadata'>
-    <platform>all</platform>
-    <summary lang='en'>script.module.libtorrent is a Kodi module that makes easy import of python-libtorrent for you.</summary>
-    <summary lang='ru'>script.module.libtorrent - модуль Kodi, который упрощает импорт библиотеки python-libtorrent.</summary>
-    <summary lang='es'>script.module.libtorrent es un módulo de Kodi que facilita la importación de la librería python-libtorrent.</summary>
-    <license>MIT License</license>
-    <source>https://github.com/DiMartinoXBMC/script.module.libtorrent</source>
-  </extension>
-  <extension point='xbmc.python.module'/>
+<addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
+    <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <size>94704</size>
+        <summary>Unofficial Resolvers for the Kodi Media Center</summary>
+        <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="service.sublime"
+    name="Sublime" version="1.6.3" provider-name="Tommie82">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.service" library="default.py" start="login"></extension>
+
+    <extension point="xbmc.addon.metadata">
+    <size>21416</size>
+        <summary>Subtitle cleaner for Kodi</summary>
+        <description>Subtitles come in a lot of different markups. HI tags, different font shapes, colours and sizes, ALL CAPS, author/syncher credits and nowadays even advertisements. Not all of these are just as bad, but they can be annoying. SubLime lets you choose which markup you wanna keep, and which you prefer to filter out.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="service.subtitles.addic7ed"
+       name="Addic7ed.com"
+       version="3.1.3"
+       provider-name="Sarsailă">
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+    <size>521819</size>
+        <summary lang="en">Get subtitles from Addic7ed.com</summary>
+        <description lang="en">Cautare subtitrari de pe cel mai bun site addic7ed.com</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website/>
+        <email/>
+        <source>https://github.com/xngsrs/myhobby</source>
+        <assets>
+        <icon>logo.png</icon>
+        </assets>
+        <news>
+            3.1.2
+            - python 3.10 compatibil
+            - foarte mici imbunatatiri cod preluare informatii
+        </news>
+    </extension>
+</addon>
+
+<addon id="service.subtitles.subscene"
+       name="Subscene.com"
+       version="2.0.10"
+       provider-name="Sarsailă">
+    <extension point="xbmc.subtitle.module"
+               library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+    <size>662062</size>
+        <summary lang="en">Get subtitles from Subscene.com</summary>
+        <description lang="en">Subscene.com provides subtitles in more than 50 languages, mainly in English, Arabic, Brazilian Portuguese, Farsi, Indonesian and Vietnamese.
+Other languages with a great number of subtitles are: Danish, French, Swedish, Dutch, Italian, Norwegian and Spanish.</description>
+        <disclaimer lang="en"/>
+        <platform>all</platform>
+        <language/>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=184854</forum>
+        <website/>
+        <email/>
+        <source>https://github.com/manacker/service.subtitles.subscene</source>
+        <assets>
+        <icon>logo.png</icon>
+        </assets>
+        <news>
+        2.0.10
+        - python 3.11 compatibil
+
+        2.0.9
+        - python 3.10 compatibil
+        </news>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.romaniaradio"
+       name="Romania Radio"
+       version="1.0.4"
+       provider-name="Sarsailă">
+    <requires />
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <size>1236676</size>
+        <platform>all</platform>
+        <summary>Posturi Radio Romania</summary>
+        <description>Posturi de radio romanesti colectate de pe romaniaradio.ro</description>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.cinepub"
+       name="cinepub.ro"
+       version="0.1.6"
+       provider-name="strainu">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py"><provides>video</provides></extension>
+    <extension point="xbmc.addon.metadata">
+    <size>30619</size>
+	<provides>video</provides>
+        <platform>all</platform>
+	<website>https://github.com/strainu/cinepub-kodi</website>
+        <license>MIT License</license>
+        <summary lang="en_us">Stream videos from www.cinepub.ro</summary>
+        <summary lang="ro_ro">Vezi filme de pe www.cinepub.ro</summary>
+        <description lang="en_us">Stream Romanian movies from [COLOR blue]www.cinepub.ro[/COLOR]</description>
+        <description lang="ro_ro">Vezi filme românești de pe [COLOR blue]www.cinepub.ro[/COLOR]</description>
+	<language>ro</language>
+	<forum></forum>
+	<source>https://github.com/strainu/cinepub-kodi</source>
+	<email></email>
+	<disclaimer lang="en_us">Use at your own risk</disclaimer>
+    </extension>
+</addon>
+
+<addon id="script.module.torrent2http" name="torrent2http" version="0.5.15" provider-name="anteo,DiMartino,-=Vd=-">
+    <requires>
+        <!-- <import addon="xbmc.python" version="2.14.0"/> -->
+		<import addon="script.module.requests" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.python.script" library="main.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" name="torrent2http.service" />
+    <extension point="xbmc.addon.metadata">
+    <size>159435</size>
+        <platform>all</platform>
+        <language>en</language>
+        <summary lang="en">Downloads torrents and share it over HTTP</summary>
+        <summary lang="ru">Загружает торренты и раздает их по HTTP</summary>
+        <description lang="ru">Обеспечивает последовательную (sequential) загрузку торрентов для потокового онлайн просмотра через HTTP. Основан на библиотеке LibTorrent.</description>
+        <description lang="en">Provides sequential torrent downloading for online streaming video and other media over HTTP.</description>
+        <email>anteo@academ.org</email>
+    </extension>
 </addon>
 
 <addon id="plugin.audio.eteatru"
@@ -756,27 +821,6 @@ transmission is a fast, easy and free BitTorrent client
       http://www.eteatru.ro
     </description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.desene3dcom"
-       name="Desene3d.com"
-       version="1.1.3"
-       provider-name="Sarsailă">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver" version="3.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <size>143816</size>
-    <summary>continut video Deseneanimate3D.com</summary>
-    <description>vizioneaza filme, seriale, emisiuni tv si altele, subtitrate sau dublate in limba romana</description>
-    <platform>all</platform>
-    <news>fix links</news>
   </extension>
 </addon>
 
@@ -806,50 +850,6 @@ level.</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <website>http://code.google.com/p/mutagen/</website>
     <source>https://bitbucket.org/lazka/mutagen/overview</source>
-  </extension>
-</addon>
-
-<addon id="plugin.audio.romaniaradio"
-       name="Romania Radio"
-       version="1.0.4"
-       provider-name="Sarsailă">
-    <requires />
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-    <size>1236676</size>
-        <platform>all</platform>
-        <summary>Posturi Radio Romania</summary>
-        <description>Posturi de radio romanesti colectate de pe romaniaradio.ro</description>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="service.subtitles.regielive"
-       name="Regielive"
-       version="1.3.7"
-       provider-name="Sarsailă">
-  <extension point="xbmc.subtitle.module"
-             library="service.py" />
-  <extension point="xbmc.addon.metadata">
-    <size>720905</size>
-    <summary lang="en">Regielive</summary>
-    <description lang="en">Cauta si descarca subtitrari de pe subtitrari.regielive.ro</description>
-    <disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website></website>
-    <email></email>
-    <source>https://github.com/xngsrs/myhobby</source>
-    <news>
-      1.3.7
-      - python 3.11 compatibil
-    1.3.6
-    Dezactivat verificare certificate la descărcare (eroare pe unele sisteme Coreelec)
-    </news>
   </extension>
 </addon>
 </addons>
