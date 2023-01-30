@@ -455,7 +455,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.3.9"
+       version="1.3.10"
        provider-name="Sarsailă">
     <requires>
         <import addon="vfs.rar" optional="true"/>
@@ -463,7 +463,7 @@ v5.2.14 (2017-01-23)
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>598434</size>
+    <size>598437</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
