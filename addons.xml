@@ -332,7 +332,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.92" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.94" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -344,7 +344,7 @@ v5.2.14 (2017-01-23)
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
-    <size>794931</size>
+    <size>797673</size>
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
         <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
@@ -455,7 +455,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="service.subtitles.subsro"
        name="Subs.ro"
-       version="1.3.10"
+       version="1.3.11"
        provider-name="Sarsailă">
     <requires>
         <import addon="vfs.rar" optional="true"/>
@@ -463,7 +463,7 @@ v5.2.14 (2017-01-23)
   <extension point="xbmc.subtitle.module"
              library="service.py" />
   <extension point="xbmc.addon.metadata">
-    <size>598437</size>
+    <size>598449</size>
     <summary lang="en">Subs.ro</summary>
     <description lang="en">Cauta si descarca subtitrari de pe subs.ro</description>
     <disclaimer lang="en"></disclaimer>
@@ -472,7 +472,7 @@ v5.2.14 (2017-01-23)
     <website></website>
     <email></email>
     <source>https://github.com/xngsrs/myhobby</source>
-    <news>- python 3.11 compatibil</news>
+    <news>- fix website</news>
     <assets>
         <icon>icon.png</icon>
     </assets>
